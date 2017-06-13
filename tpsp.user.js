@@ -13,23 +13,23 @@
     
     // #-#-# OPTIONS #-#-# //
     
-            // Fill in a URL to a Soundpack. Leave blank ""; for default sounds
-        Soundpack_URL = "minimal.tpsp";
+            // Fill in a URL to a SoundPack. Leave blank ""; for default sounds
+        SoundPack_URL = "minimal.tpsp";
 
             // If you want to change some sounds individually, you can do so here.
             // For sound names, see the reference list below
-        Custom_Sounds {
-            sound_name      :   "http://www.example.com/sound.mp3",
-            another_sound   :   "http://www.example.com/another.mp3",
-        }
+        Custom_Base = "http://www.example.com/"
+        Custom_Sounds = {
+            sound_name      :   "sound.mp3",
+            another_sound   :   "another.mp3",
+        };
         
-        Show_Credits = true; // whether to show 'SoundPack: name by author' at the start of a game
+        Show_Credits = true; // Whether to show 'SoundPack: name by author' at the start of a game
+        
     
     // #-#-# SNOITPO #-#-# //
     
-        
-        
-   
+    
     /* #-#-# ALL SOUNDS OF TAGPRO FOR YOUR INFORMATION #-#-# //
     
         burst           (when boosting)
@@ -55,26 +55,61 @@
     
     //--------------------------------------------------//
     //       SCROLL FURTHER DOWN ON YOUR OWN RISK       //
-    //--------------------------------------------------//        
+    //--------------------------------------------------//
     
+    SoundPack = { sounds: {} };
+    
+    // Write .tpsp to SoundPack variable
+    $.getJSON(SoundPack_URL, function(data) {
+        SoundPack = JSON.parse(data);
+    });
+
+
+    // add base to every URL
+    if ('base' in SoundPack)
+        for (var snd in SoundPack.sounds)
+            SoundPack.sounds.snd = SoundPack.base + SoundPack.sounds.snd;
+
+    
+    // Write Custom_Sounds to SoundPack variable (TODO)
+    for (var snd in Custom_Sounds) {
+        SoundPack.sounds[snd] = { URL : Custom_Base + Custom_Sounds[snd] };
+    }
     
     // Changing the sounds
-    if ( burst          in Soundpack ) $("audio#burst").get(0).src=          burst;
-    if ( alert          in Soundpack ) $("audio#alert").get(0).src=          alert;
-    if ( cheering       in Soundpack ) $("audio#cheering").get(0).src=       cheering;
-    if ( drop           in Soundpack ) $("audio#drop").get(0).src=           drop;
-    if ( sigh           in Soundpack ) $("audio#sigh").get(0).src=           sigh;
-    if ( powerup        in Soundpack ) $("audio#powerup").get(0).src=        powerup;
-    if ( pop            in Soundpack ) $("audio#pop").get(0).src=            pop;
-    if ( click          in Soundpack ) $("audio#click").get(0).src=          click;
-    if ( explosion      in Soundpack ) $("audio#explosion").get(0).src=      explosion;
-    if ( countdown      in Soundpack ) $("audio#countdown").get(0).src=      countdown;
-    if ( friendlydrop   in Soundpack ) $("audio#friendlydrop").get(0).src=   friendlydrop;
-    if ( friendlyalert  in Soundpack ) $("audio#friendlyalert").get(0).src=  friendlyalert;
-    if ( alertlong      in Soundpack ) $("audio#alertlong").get(0).src=      alertlong;
-    if ( go             in Soundpack ) $("audio#go").get(0).src=             go;
-    if ( degreeup       in Soundpack ) $("audio#degreeup").get(0).src=       degreeup;
-    if ( teleport       in Soundpack ) $("audio#teleport").get(0).src=       teleport;
+    if ( 'burst'            in SoundPack.sounds ) $("audio#burst").get(0).src=          SoundPack.sounds.burst.URL;
+    if ( 'alert'            in SoundPack.sounds ) $("audio#alert").get(0).src=          SoundPack.sounds.alert.URL;
+    if ( 'cheering'         in SoundPack.sounds ) $("audio#cheering").get(0).src=       SoundPack.sounds.cheering.URL;
+    if ( 'drop'             in SoundPack.sounds ) $("audio#drop").get(0).src=           SoundPack.sounds.drop.URL;
+    if ( 'sigh'             in SoundPack.sounds ) $("audio#sigh").get(0).src=           SoundPack.sounds.sigh.URL;
+    if ( 'powerup'          in SoundPack.sounds ) $("audio#powerup").get(0).src=        SoundPack.sounds.powerup.URL;
+    if ( 'pop'              in SoundPack.sounds ) $("audio#pop").get(0).src=            SoundPack.sounds.pop.URL;
+    if ( 'click'            in SoundPack.sounds ) $("audio#click").get(0).src=          SoundPack.sounds.click.URL;
+    if ( 'explosion'        in SoundPack.sounds ) $("audio#explosion").get(0).src=      SoundPack.sounds.explosion.URL;
+    if ( 'countdown'        in SoundPack.sounds ) $("audio#countdown").get(0).src=      SoundPack.sounds.countdown.URL;
+    if ( 'friendlydrop'     in SoundPack.sounds ) $("audio#friendlydrop").get(0).src=   SoundPack.sounds.friendlydrop.URL;
+    if ( 'friendlyalert'    in SoundPack.sounds ) $("audio#friendlyalert").get(0).src=  SoundPack.sounds.friendlyalert.URL;
+    if ( 'alertlong'        in SoundPack.sounds ) $("audio#alertlong").get(0).src=      SoundPack.sounds.alertlong.URL;
+    if ( 'go'               in SoundPack.sounds ) $("audio#go").get(0).src=             SoundPack.sounds.go.URL;
+    if ( 'degreeup'         in SoundPack.sounds ) $("audio#degreeup").get(0).src=       SoundPack.sounds.degreeup.URL;
+    if ( 'teleport'         in SoundPack.sounds ) $("audio#teleport").get(0).src=       SoundPack.sounds.teleport.URL;
+    
+    
+    if Show_Credits {
+        // wait for TagPro to load
+        while (typeof io == "undefined" || io.__loopback || typeof tagpro == "undefined") {}
+        
+        if ('name' in SoundPack) {
+            msg = "SoundPack: " + SoundPack.name;
+            if ('author' in SoundPack) msg += " by " + SoundPack.author;
+        } else if ('author' in SoundPack) msg = "SoundPack by " SoundPack.author;
+        else msg = "SoundPack unnamed";
+
+        tagpro.socket.emit("local:chat", {
+          from: null,
+          message: msg,
+        });
+    }
 
 
 })();
