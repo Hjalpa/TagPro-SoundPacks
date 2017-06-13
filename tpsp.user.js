@@ -7,14 +7,15 @@
 // @include       http://tangent.jukejuice.com:*
 // @include       http://*.newcompte.fr:*
 // @author        Ko
-// ==/UserScript==
-    
+// ==/UserScript== 
+
 (function() {
     
     // #-#-# OPTIONS #-#-# //
     
-            // Fill in a URL to a SoundPack. Leave blank ""; for default sounds
-        SoundPack_URL = "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal.tpsp";
+            // Either fill in a URL, or the name of a SoundPack.
+            // For a list of SoundPacks, visit https://github.com/wilcooo/TagPro-SoundPacks/tree/master/SoundPacks
+        SoundPack = "Minimal";
 
             // If you want to change some sounds individually, you can do so here.
             // For sound names, see the reference list below
@@ -56,6 +57,15 @@
     //--------------------------------------------------//
     //       SCROLL FURTHER DOWN ON YOUR OWN RISK       //
     //--------------------------------------------------//
+    
+    
+    // Ask me (/u/Wilcooo) to add your SoundPack to this list
+    switch (SoundPack) {
+        case "Minimal":
+            SoundPack = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp";
+            break;
+        default:
+            SoundPack_URL = SoundPack;
     
     SoundPack = { sounds: {} };
     
