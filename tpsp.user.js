@@ -81,12 +81,12 @@
 
     // add base to every URL
     if ('base' in SoundPack)
-        for (snd in SoundPack.sounds)
+        for (var snd1 in SoundPack.sounds)
             SoundPack.sounds.snd = SoundPack.base + SoundPack.sounds.snd;
 
     
     // Write Custom_Sounds to SoundPack variable (TODO)
-    for (snd in Custom_Sounds) {
+    for (var snd2 in Custom_Sounds) {
         SoundPack.sounds[snd] = { URL : Custom_Base + Custom_Sounds[snd] };
     }
     
@@ -116,7 +116,7 @@
         if ('name' in SoundPack) {
             msg = "SoundPack: " + SoundPack.name;
             if ('author' in SoundPack) msg += " by " + SoundPack.author;
-        } elseif ('author' in SoundPack) { msg = "SoundPack by " SoundPack.author; }
+        } elseif ('author' in SoundPack) { msg = "SoundPack by " + SoundPack.author; }
         else msg = "SoundPack unnamed";
 
         tagpro.socket.emit("local:chat", {
