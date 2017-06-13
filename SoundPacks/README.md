@@ -5,4 +5,4 @@ You can use these Packs by filling in the name in the options of the userscript.
 
 
 
-[*Go back*](/ "TagPro SoundPacks")
+[*Go back*](../../.. "TagPro SoundPacks")
