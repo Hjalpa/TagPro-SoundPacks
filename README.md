@@ -19,4 +19,23 @@ SoundPacks are .tpsp files, which are written in the JSON format. They consist o
 A self-explanatory file can be found [here](SoundPacks/example.tpsp "SoundPacks/example.tpsp").  
 To use your SoundPack, upload it somewhere, and change the 'SoundPack_URL' variable in the options of the script to point to your SoundPack.
 
+These are all the sounds of TagPro. You don't have to use all of them, the script will fallback to the default sounds.
+
+        burst           (when boosting)
+        alert           (when other team grabs)
+        cheering        (at start, when scoring and when won)
+        drop            (when other team drops)
+        sigh            (when other team scores, or when lost)
+        powerup         (when picking a pup)
+        pop             (when you or someone near pops)
+        click           (when a button gets pressed or released)
+        explosion       (bomb or rolling bomb)
+        countdown       (3 - 2 - 1)
+        friendlydrop    (when your team loses the flag)
+        friendlyalert   (when your team grabs)
+        alertlong       (unused)
+        go              (when joining a game which is already in progress)
+        degreeup        (when you get a higher degree)
+        teleport        (when a portal gets used)
+
 Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository. This will make it easier to find for users of this script.
