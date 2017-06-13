@@ -2,7 +2,7 @@
 
     "name"          :   "Minimal",
     "author"        :   "Ko",
-    "description"   :   "Short and simple yet distinctive sounds for TagPro (to use with the TagPro SoundPacks extension)"
+    "description"   :   "Short and simple yet distinctive sounds for TagPro (to use with the TagPro SoundPacks extension)",
 
     "base"          :   "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/Minimal/",
 
