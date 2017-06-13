@@ -23,7 +23,7 @@
 
             // If you want to change some sounds individually, you can do so here.
             // Use the sound names, as listed below
-        Custom_Base = "http://www.example.com/"
+        Custom_Base = "http://www.example.com/";
         Custom_Sounds = {
             sound_name      :   "sound.mp3",
             another_sound   :   "another.mp3",
@@ -81,12 +81,12 @@
 
     // add base to every URL
     if ('base' in SoundPack)
-        for (var snd in SoundPack.sounds)
+        for (snd in SoundPack.sounds)
             SoundPack.sounds.snd = SoundPack.base + SoundPack.sounds.snd;
 
     
     // Write Custom_Sounds to SoundPack variable (TODO)
-    for (var snd in Custom_Sounds) {
+    for (snd in Custom_Sounds) {
         SoundPack.sounds[snd] = { URL : Custom_Base + Custom_Sounds[snd] };
     }
     
@@ -109,14 +109,14 @@
     if ( 'teleport'         in SoundPack.sounds ) $("audio#teleport").get(0).src=       SoundPack.sounds.teleport.URL;
     
     
-    if Show_Credits {
+    if (Show_Credits) {
         // wait for TagPro to load
-        while (typeof io == "undefined" || io.__loopback || typeof tagpro == "undefined") {}
+        while ( (typeof io == "undefined") || io.__loopback || (typeof tagpro == "undefined") ) {}
         
         if ('name' in SoundPack) {
             msg = "SoundPack: " + SoundPack.name;
             if ('author' in SoundPack) msg += " by " + SoundPack.author;
-        } else if ('author' in SoundPack) msg = "SoundPack by " SoundPack.author;
+        } elseif ('author' in SoundPack) { msg = "SoundPack by " SoundPack.author; }
         else msg = "SoundPack unnamed";
 
         tagpro.socket.emit("local:chat", {
