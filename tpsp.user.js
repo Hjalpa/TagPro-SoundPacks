@@ -9,16 +9,20 @@
 // @author        Ko
 // ==/UserScript== 
 
+    //-----------------------------------------------------------------------//
+    //       INFORMATION: https://github.com/wilcooo/TagPro-SoundPacks       //
+    //-----------------------------------------------------------------------//
+
 (function() {
     
     // #-#-# OPTIONS #-#-# //
     
             // Either fill in a URL, or the name of a SoundPack.
-            // For a list of SoundPacks, visit https://github.com/wilcooo/TagPro-SoundPacks/tree/master/SoundPacks
+            // For a list of SoundPacks, visit https://github.com/wilcooo/TagPro-SoundPacks/
         SoundPack = "Minimal";
 
             // If you want to change some sounds individually, you can do so here.
-            // For sound names, see the reference list below
+            // Use the sound names, as listed below
         Custom_Base = "http://www.example.com/"
         Custom_Sounds = {
             sound_name      :   "sound.mp3",
@@ -55,7 +59,7 @@
     
     
     //--------------------------------------------------//
-    //       SCROLL FURTHER DOWN ON YOUR OWN RISK       //
+    //       SCROLL FURTHER DOWN AT YOUR OWN RISK       //
     //--------------------------------------------------//
     
     
