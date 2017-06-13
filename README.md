@@ -9,7 +9,7 @@ Use SoundPacks for the increddible game of TagPro
    + [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ "Install on Firefox") for Firefox
    + [Tampermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/ "Install on Opera Next") for Opera Next
    + [Tampermonkey](https://play.google.com/store/apps/details?id=net.tampermonkey.uc "Install on UC Browser") for UC Browser
-2. Add the [TagPro SoundPacks](tpsp.user.js "Add to Tampermonkey") userscript to Tampermonkey
+2. Add the [TagPro SoundPacks](https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js "Add to Tampermonkey") userscript to Tampermonkey
 3. Optionally change some options
    You can change the options by changing the values in the script. There is additional information inside the script.  
    You should take a look in the [SoundPacks folder](SoundPacks "SoundPacks") in this repository for some custom SoundPacks
