@@ -19,7 +19,7 @@
         "countdown"     : {"URL" : "countdown.mp3" },
         "friendlyalert" : {"URL" : "friendlyalert.mp3" },
         "go"            : {"URL" : "go.mp3" },
-        "teleport"      : {"URL" : "teleport.mp3" },
+        "teleport"      : {"URL" : "teleport.mp3" }
     
     }
 }
