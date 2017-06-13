@@ -2,7 +2,7 @@
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
 // @version       0.1
-// @downloadURL   --Unknown--
+// @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com:*
 // @include       http://tangent.jukejuice.com:*
 // @include       http://*.newcompte.fr:*
@@ -14,7 +14,7 @@
     // #-#-# OPTIONS #-#-# //
     
             // Fill in a URL to a SoundPack. Leave blank ""; for default sounds
-        SoundPack_URL = "minimal.tpsp";
+        SoundPack_URL = "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal.tpsp";
 
             // If you want to change some sounds individually, you can do so here.
             // For sound names, see the reference list below
