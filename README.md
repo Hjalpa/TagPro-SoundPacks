@@ -19,4 +19,4 @@ SoundPacks are .tpsp files, which are written in the JSON format. They consist o
 A self-explanatory file can be found [here](SoundPacks/example.tpsp "SoundPacks/example.tpsp").  
 To use your SoundPack, upload it somewhere, and change the 'SoundPack_URL' variable in the options of the script to point to your SoundPack.
 
-You can ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository. This will make it easier to find for users of this script.
+Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository. This will make it easier to find for users of this script.
