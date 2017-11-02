@@ -1,10 +1,11 @@
 {
 
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
     "name"          :   "Minimal",
     "author"        :   "Ko",
-    "description"   :   "Short and simple yet distinctive sounds for TagPro (to use with the TagPro SoundPacks extension)",
-
-    "base"          :   "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/Minimal/",
+    "description"   :   "Short and simple yet distinctive sounds",
 
     "sounds" : {
     
@@ -19,7 +20,7 @@
         "countdown"     : {"URL" : "countdown.mp3" },
         "friendlyalert" : {"URL" : "friendlyalert.mp3" },
         "go"            : {"URL" : "go.mp3" },
-        "teleport"      : {"URL" : "teleport.mp3" }
+        "teleport"      : {"URL" : "teleport.mp3" },
     
     }
 }
