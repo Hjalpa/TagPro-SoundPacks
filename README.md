@@ -23,14 +23,14 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
 
     burst           (when boosting)
     alert           (when other team grabs)
-    cheering        (at start, when scoring and when won)
+    cheering        (at start, when scoring and when won)
     drop            (when other team drops)
     sigh            (when other team scores, or when lost)
     powerup         (when picking a pup)
     pop             (when you or someone near pops)
     click           (when a button gets pressed or released)
     explosion       (bomb or rolling bomb)
-    countdown       (3 - 2 - 1)
+    countdown       (3 - 2 - 1, it's important to get the timing right with this one)
     friendlydrop    (when your team loses the flag)
     friendlyalert   (when your team grabs)
     alertlong       (unused)
@@ -38,4 +38,4 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
     degreeup        (when you get a higher degree)
     teleport        (when a portal gets used)
 
-Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository. This will make it easier to find for users of this script.
+Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository and to embed it in the script.
