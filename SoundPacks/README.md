@@ -1,7 +1,7 @@
 # SoundPacks
 You can use these Packs by filling in the name or its URL in the options of the userscript.
 
-+ [**Minimal**](minimal.tpsp "Right-click to copy URL") by [Ko](https://reddit.com/user/wilcooo "/u/Wilcooo") - Short and simple yet distinctive sounds (This is the default SoundPack)
++ [**minimal**](minimal.tpsp "Right-click to copy URL") by [Ko](https://reddit.com/user/wilcooo "/u/Wilcooo") - Short and simple yet distinctive sounds (This is the default SoundPack)
 
 
 
