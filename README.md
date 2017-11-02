@@ -30,7 +30,7 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
     pop             (when you or someone near pops)
     click           (when a button gets pressed or released)
     explosion       (bomb or rolling bomb)
-    countdown       (3 - 2 - 1. its important to get the timing right with this one)
+    countdown       (3 - 2 - 1. It is important to get the timing right with this sound)
     friendlydrop    (when your team loses the flag)
     friendlyalert   (when your team grabs)
     alertlong       (unused, as far as I know)
