@@ -2,7 +2,7 @@
 Use SoundPacks for the increddible game of TagPro
 
 ## How to install (for people that are unfamilliar with userscripts)
-1. Install the Tampermonkey extension for your browser
+1. Install the Tampermonkey extension for your browser if you haven't already
    + [Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "Install on Chrome") for Chrome
    + [Tampermonkey](https://www.microsoft.com/store/apps/9NBLGGH5162S "Install on Edge") for Edge
    + [Tampermonkey](https://safari.tampermonkey.net/tampermonkey.safariextz "Install on Safari") for Safari
@@ -11,8 +11,8 @@ Use SoundPacks for the increddible game of TagPro
    + [Tampermonkey](https://play.google.com/store/apps/details?id=net.tampermonkey.uc "Install on UC Browser") for UC Browser
 2. Add the [TagPro SoundPacks](https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js "Add to Tampermonkey") userscript to Tampermonkey
 3. Optionally change some options
-   You can change the options by changing the values in the script. There is additional information inside the script.  
-   You should take a look in the [SoundPacks folder](SoundPacks "SoundPacks") in this repository for some custom SoundPacks
+   You can change the options by changing the values in the script. There is additional information inside the script.
+   For example, you can choose what soundpack you want to use.
 
 ## How to make a custom SoundPack
 SoundPacks are .tpsp files, which are written in the JSON format. They consist of URL's pointing to all individual sounds.  
