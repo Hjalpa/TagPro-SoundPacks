@@ -14,10 +14,9 @@ Use SoundPacks for the increddible game of TagPro
    You can change the options by changing the values in the script. There is additional information inside the script.
    For example, you can choose what soundpack you want to use.
 
-## How to make a custom SoundPack
-SoundPacks are .tpsp files, which are written in the JSON format. They consist of URL's pointing to all individual sounds.  
-An example can be found [here](SoundPacks/Minimal.tpsp "SoundPacks/Minimal.tpsp"). It should be self-explanatory. 
-To use your SoundPack, upload it somewhere, and change the 'SoundPack' option in the script to a direct URL to the .tpsp file.
+## How to replace sounds with your own .mp3 files
+1. Make or find .mp3 sounds and upload them somewhere on the internet if they aren't already (for example in a GitHub repo).  Make sure that they are on a website that provides a direct link URL (often ending with .mp3) to your sounds. You may find that URL just by clicking the download button.
+2. In the userscript, add all those URLs to the Custom_Sounds option. Make sure to type the right names in front of them (listed below).
 
 These are all the sounds of TagPro. You don't have to use all of them, the script will fallback to the default sounds.
 
@@ -38,4 +37,8 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
     degreeup        (when you get a higher degree)
     teleport        (when a portal gets used)
 
-Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository and to embed it in the script.
+## How to make a custom SoundPack (that you can easily share with others)
+1. Make or find .mp3 sounds and upload them somewhere on the internet (for example in a GitHub repo).
+2. Write a .tpsp file, which is a SoundPack written in the JSON format. It should contain direct links to all of your mp3 files. Not all sounds have to be included, as the userscript will fall back to the default sounds. An example of a .tpsp file can be found [here](SoundPacks/minimal.tpsp "SoundPacks/minimal.tpsp"). It should be self-explanatory.
+3. Upload the .tpsp file too, and in the userscript change the SoundPack option to a direct link to your .tpsp file.
+4. Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository and to embed it in the script.
