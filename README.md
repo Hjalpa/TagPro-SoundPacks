@@ -24,12 +24,7 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
     burst           (when boosting)
     alert           (when other team grabs)
     cheering        (at start, when scoring and when your team wins)
-    cheering        (at start, when scoring and when your team wins)
-    drop            (when other team drops)
-
-
-
-
+    drop            (when the other team drops the flag)
     sigh            (when other team scores, or when lost)
     powerup         (when picking a pup)
     pop             (when you or someone near pops)
