@@ -9,18 +9,18 @@
 
     "sounds" : {
     
-        "burst"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/burst.mp3" },
-        "alert"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/alert.mp3" },
-        "cheering"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/cheering.mp3" },
-        "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/sigh.mp3" },
-        "powerup"       : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/powerup.mp3" },
-        "pop"           : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/pop.mp3" },
-        "click"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/click.mp3" },
-        "explosion"     : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/explosion.mp3" },
-        "countdown"     : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/countdown.mp3" },
-        "friendlyalert" : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/friendlyalert.mp3" },
-        "go"            : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/go.mp3" },
-        "teleport"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/teleport.mp3" }
+        "burst"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/burst.mp3" },
+        "alert"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/alert.mp3" },
+        "cheering"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/cheering.mp3" },
+        "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/sigh.mp3" },
+        "powerup"       : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/powerup.mp3" },
+        "pop"           : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/pop.mp3" },
+        "click"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/click.mp3" },
+        "explosion"     : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/explosion.mp3" },
+        "countdown"     : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/countdown.mp3" },
+        "friendlyalert" : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/friendlyalert.mp3" },
+        "go"            : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/go.mp3" },
+        "teleport"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/teleport.mp3" }
     
     }
 }
