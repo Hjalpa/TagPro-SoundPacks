@@ -22,6 +22,9 @@
     //           • HarkMomis by RonSpawnsonTP            "harkmomis"         //
     //               - source: https://redd.it/3fg1yb                        //
     //                                                                       //
+    //           • Community Sounds by RonSpawnsonTP     "community"         //
+    //               - source: https://go.twitch.tv/ronspawnson/videos/all   //
+    //                                                                       //
     //                                                                       //
     //        Go to: https://github.com/wilcooo/TagPro-SoundPacks            //
     //        for information on how to make your own SoundPack.             //
@@ -134,6 +137,9 @@ tagpro.ready(function () {
             break;
         case "harkmomis":
             SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp";
+            break;
+        case "community":
+            SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/community.tpsp";
             break;
         default:
             if (ValidURL(SoundPack)) SoundPack_URL = SoundPack;
