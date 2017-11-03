@@ -20,22 +20,24 @@ Use SoundPacks for the increddible game of TagPro
 
 These are all the sounds of TagPro. You don't have to use all of them, the script will fallback to the default sounds.
 
-    burst           (when boosting)
-    alert           (when other team grabs)
-    cheering        (at start, when scoring and when your team wins)
-    drop            (when the other team drops the flag)
-    sigh            (when other team scores, or when lost)
-    powerup         (when picking a pup)
-    pop             (when you or someone near pops)
-    click           (when a button gets pressed or released)
-    explosion       (bomb or rolling bomb)
-    countdown       (3 - 2 - 1. It is important to get the timing right with this sound)
-    friendlydrop    (when your team loses the flag)
-    friendlyalert   (when your team grabs)
-    alertlong       (unused, as far as I know)
-    go              (when joining a game which is already in progress)
-    degreeup        (when you get a higher degree)
-    teleport        (when a portal gets used)
+        burst           when boosting
+        alert           when other team grabs
+        cheering        at start, when scoring and when won
+        drop            when other team drops
+        sigh            when other team scores, or when lost
+        powerup         when picking a pup
+        pop             when you or someone near pops
+        click           when a button gets pressed or released
+        explosion       bomb or rolling bomb
+        countdown       3 - 2 - 1  (It's important to get the timing right with this one)
+        friendlydrop    when your team loses the flag
+        friendlyalert   when your team grabs
+        alertlong       unused (as far as I know)
+        go              when joining a game which is already in progress
+        degreeup        when you get a higher degree
+        teleport        when a portal gets used
+        wind            when close to a gravity well
+        bing            when receiving a tutorial message
 
 ## How to make a custom SoundPack (that you can easily share with others)
 1. Make or find .mp3 sounds and upload them somewhere on the internet (for example in a GitHub repo).
