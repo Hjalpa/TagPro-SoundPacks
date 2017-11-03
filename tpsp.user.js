@@ -167,7 +167,7 @@ tagpro.ready(function () {
         }
 
 
-        const SOUND_NAMES = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing']
+        const SOUND_NAMES = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing'];
 
         // Overwrite the sounds with the Custom_Sounds (in the options)
         Object.keys(Custom_Sounds).forEach( function(snd) {
