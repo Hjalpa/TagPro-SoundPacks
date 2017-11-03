@@ -209,7 +209,7 @@ tagpro.ready(function () {
         */
 
         // And this shows the credits beneath the timer.
-        var credit = new PIXI.Text('SoundPack: minimal by Ko', { fontFamily:"Arial", fontSize:"8pt", fontStyle:"bold", fill:"#999999", dropShadow:true, dropShadowDistance:1 });
+        var credit = new PIXI.Text(msg, { fontFamily:"Arial", fontSize:"8pt", fontStyle:"bold", fill:"#999999", dropShadow:true, dropShadowDistance:1 });
 
 
         credit.anchor.x = 0.5;
