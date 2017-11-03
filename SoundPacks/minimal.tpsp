@@ -20,7 +20,7 @@
         "countdown"     : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/countdown.mp3" },
         "friendlyalert" : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/friendlyalert.mp3" },
         "go"            : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/go.mp3" },
-        "teleport"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/teleport.mp3" },
+        "teleport"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/Minimal/teleport.mp3" }
     
     }
 }
