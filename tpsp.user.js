@@ -1,42 +1,51 @@
 // ==UserScript==
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
+// @author        Ko
 // @version       0.1
 // @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com:*
 // @include       http://tangent.jukejuice.com:*
 // @include       http://*.newcompte.fr:*
-// @author        Ko
-// ==/UserScript== 
+// ==/UserScript==
+
 
     //-----------------------------------------------------------------------//
-    //       INFORMATION: https://github.com/wilcooo/TagPro-SoundPacks       //
+    //                                                                       //
+    //       INCLUDED SOUNDPACKS:  (choose one in the options below)         //
+    //               • "minimal" by Ko                                       //
+    //                                                                       //
     //-----------------------------------------------------------------------//
 
-(function() {
-    
-    // #-#-# OPTIONS #-#-# //
-    
-            // Either fill in a URL, or the name of a SoundPack.
-            // For a list of SoundPacks, visit https://github.com/wilcooo/TagPro-SoundPacks/
-        SoundPack = "Minimal";
 
-            // If you want to change some sounds individually, you can do so here.
-            // Use the sound names, as listed below
-        Custom_Base = "http://www.example.com/";
-        Custom_Sounds = {
-            sound_name      :   "sound.mp3",
-            another_sound   :   "another.mp3",
-        };
-        
-        Show_Credits = true; // Whether to show 'SoundPack: name by author' at the start of a game
-        
-    
-    // #-#-# SNOITPO #-#-# //
-    
-    
-    /* #-#-# ALL SOUNDS OF TAGPRO FOR YOUR INFORMATION #-#-# //
-    
+
+////////////////////////////////////////////////////////////////////////////////////////////
+//     ### --- OPTIONS --- ###                                                            //
+////////////////////////////////////////////////////////////////////////////////////////  //
+                                                                                      //  //
+// What SoundPack do you want to use?                                                 //  //
+//   You can type the name of an included SoundPack (listed above),                   //  //
+//   or an direct URL to a .tpsp file.                                                //  //
+var SoundPack = "minimal";                                                            //  //
+                                                                                      //  //
+// You can replace individual sounds by pasting direct URLs to .mp3 files.            //  //
+// Use the correct names, all sounds are listed below the options.                    //  //
+var Custom_Sounds = {                                                                 //  //
+    alertlong       :   "https://example.com/alertlong.mp3",                          //  //
+};                                                                                    //  //
+                                                                                      //  //
+// Show credits every time you join a game:                                           //  //
+var Show_Credits = true;                                                              //  //
+                                                                                      //  //
+////////////////////////////////////////////////////////////////////////////////////////  //
+//                                                     ### --- END OF OPTIONS --- ###     //
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    /*////// ALL SOUNDS OF TAGPRO FOR YOUR INFORMATION ////////
+
         burst           (when boosting)
         alert           (when other team grabs)
         cheering        (at start, when scoring and when won)
@@ -53,77 +62,173 @@
         go              (when joining a game which is already in progress)
         degreeup        (when you get a higher degree)
         teleport        (when a portal gets used)
-    
-    // #-#-# NOITAMROFNI RUOY ROF ORPGAT FO SDNUOS LLA #-#-# */
-    
-    
-    
-    //--------------------------------------------------//
-    //       SCROLL FURTHER DOWN AT YOUR OWN RISK       //
-    //--------------------------------------------------//
-    
-    
+
+    /////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+    /*/////   WANT TO ADD YOUR OWN SOUNDS TO TAGPRO?   ////////
+
+        Go to: https://github.com/wilcooo/TagPro-SoundPacks
+        for information on how to make one.
+        No coding knowledge required, only creativity!
+
+        Than message me (/u/Wilcooo) and I'll add your
+        SoundPack to this script :)
+
+    /////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////
+// SCROLL FURTHER AT YOUR OWN RISK! //
+//////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+tagpro.ready(function () {
+
+    console.log('START: ' + GM_info.script.name + ' (v' + GM_info.script.version + ' by ' + GM_info.script.author + ')');
+
+
+
+    function ValidURL(str) {
+        var pattern = new RegExp('^(https?:\/\/)?'+ // protocol
+                                 '((([a-z\d]([a-z\d-]*[a-z\d])*)\.)+[a-z]{2,}|'+ // domain name
+                                 '((\d{1,3}\.){3}\d{1,3}))'+ // OR ip (v4) address
+                                 '(\:\d+)?(\/[-a-z\d%_.~+]*)*'+ // port and path
+                                 '(\?[;&a-z\d%_.~+=-]*)?'+ // query string
+                                 '(\#[-a-z\d_]*)?$','i'); // fragment locater
+        return pattern.test(str);
+    }
+
     // Ask me (/u/Wilcooo) to add your SoundPack to this list
     switch (SoundPack) {
-        case "Minimal":
-            SoundPack = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp";
+        case "minimal":
+            SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp";
             break;
         default:
-            SoundPack_URL = SoundPack;
-    
-    SoundPack = { sounds: {} };
-    
-    // Write .tpsp to SoundPack variable
-    $.getJSON(SoundPack_URL, function(data) {
-        SoundPack = JSON.parse(data);
-    });
-
-
-    // add base to every URL
-    if ('base' in SoundPack)
-        for (var snd1 in SoundPack.sounds)
-            SoundPack.sounds.snd = SoundPack.base + SoundPack.sounds.snd;
-
-    
-    // Write Custom_Sounds to SoundPack variable (TODO)
-    for (var snd2 in Custom_Sounds) {
-        SoundPack.sounds[snd] = { URL : Custom_Base + Custom_Sounds[snd] };
+            if (ValidURL(SoundPack)) SoundPack_URL = SoundPack;
+            else {
+                console.warn('TP-SoundPacks: no valid URL or name of an included soundpack');
+                tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: 'No valid soundpack provided', c: "#d1a140" });
+            }
+            return;
     }
-    
-    // Changing the sounds
-    if ( 'burst'            in SoundPack.sounds ) $("audio#burst").get(0).src=          SoundPack.sounds.burst.URL;
-    if ( 'alert'            in SoundPack.sounds ) $("audio#alert").get(0).src=          SoundPack.sounds.alert.URL;
-    if ( 'cheering'         in SoundPack.sounds ) $("audio#cheering").get(0).src=       SoundPack.sounds.cheering.URL;
-    if ( 'drop'             in SoundPack.sounds ) $("audio#drop").get(0).src=           SoundPack.sounds.drop.URL;
-    if ( 'sigh'             in SoundPack.sounds ) $("audio#sigh").get(0).src=           SoundPack.sounds.sigh.URL;
-    if ( 'powerup'          in SoundPack.sounds ) $("audio#powerup").get(0).src=        SoundPack.sounds.powerup.URL;
-    if ( 'pop'              in SoundPack.sounds ) $("audio#pop").get(0).src=            SoundPack.sounds.pop.URL;
-    if ( 'click'            in SoundPack.sounds ) $("audio#click").get(0).src=          SoundPack.sounds.click.URL;
-    if ( 'explosion'        in SoundPack.sounds ) $("audio#explosion").get(0).src=      SoundPack.sounds.explosion.URL;
-    if ( 'countdown'        in SoundPack.sounds ) $("audio#countdown").get(0).src=      SoundPack.sounds.countdown.URL;
-    if ( 'friendlydrop'     in SoundPack.sounds ) $("audio#friendlydrop").get(0).src=   SoundPack.sounds.friendlydrop.URL;
-    if ( 'friendlyalert'    in SoundPack.sounds ) $("audio#friendlyalert").get(0).src=  SoundPack.sounds.friendlyalert.URL;
-    if ( 'alertlong'        in SoundPack.sounds ) $("audio#alertlong").get(0).src=      SoundPack.sounds.alertlong.URL;
-    if ( 'go'               in SoundPack.sounds ) $("audio#go").get(0).src=             SoundPack.sounds.go.URL;
-    if ( 'degreeup'         in SoundPack.sounds ) $("audio#degreeup").get(0).src=       SoundPack.sounds.degreeup.URL;
-    if ( 'teleport'         in SoundPack.sounds ) $("audio#teleport").get(0).src=       SoundPack.sounds.teleport.URL;
-    
-    
-    if (Show_Credits) {
-        // wait for TagPro to load
-        while ( (typeof io == "undefined") || io.__loopback || (typeof tagpro == "undefined") ) {}
-        
-        if ('name' in SoundPack) {
-            msg = "SoundPack: " + SoundPack.name;
-            if ('author' in SoundPack) msg += " by " + SoundPack.author;
-        } elseif ('author' in SoundPack) { msg = "SoundPack by " + SoundPack.author; }
+
+
+
+
+
+
+
+    function change_sounds(tpsp) {
+
+
+        // add base to every URL, if the pack comes with one
+        if ('base' in tpsp) {
+            Object.keys(tpsp.sounds).forEach( function(snd) {
+                tpsp.sounds[snd].URL = tpsp.base + tpsp.sounds[snd].URL;
+            });
+        }
+
+        // Overwrite the sounds with the Custom_Sounds (in the options)
+        Object.keys(Custom_Sounds).forEach( function(snd) {
+            tpsp.sounds[snd] = { URL : Custom_Sounds[snd] };
+        });
+
+
+
+        // The next bit is copied from https://pastebin.com/raw/21NYcZ58.
+        // Thank you; RonSpawnson, Cyanide, Seconskin, Cam and Acid Rap
+
+        for (var snd in tpsp.sounds) {
+            if (tpsp.sounds.hasOwnProperty(snd)) {
+                console.log('changing sound:',snd);
+                // Remove all audio sources for sound except the first
+                $('audio#' + snd).find('source:gt(0)').remove();
+
+                // Replace the first audio source with the new sound
+                $('audio#' + snd).find('source').attr('src', tpsp.sounds[snd].URL);
+
+                // Reload the sound with the new source
+                $('audio#' + snd)[0].load();
+                console.log('done sound:',snd);
+            }
+        }
+    }
+
+
+
+
+
+    function show_credits (tpsp) {
+
+
+        var msg;
+        if ('name' in tpsp) {
+            msg = "SoundPack: " + tpsp.name;
+            if ('author' in tpsp) msg += " by " + tpsp.author;
+        } else if ('author' in tpsp) {
+            msg = "SoundPack by " + tpsp.author; }
         else msg = "SoundPack unnamed";
 
+        /* This shows the credits in chat
         tagpro.socket.emit("local:chat", {
-          from: null,
-          message: msg,
+            to: "all",
+            from: "TP-SoundPacks",
+            message: msg,
+            c: "#d1a140",
         });
+        */
+
+        // And this shows the credits beneath the timer.
+        var credit = new PIXI.Text('SoundPack: minimal by Ko', { fontFamily:"Arial", fontSize:"8pt", fontStyle:"bold", fill:"#999999", dropShadow:true, dropShadowDistance:1 });
+
+
+        credit.anchor.x = 0.5;
+        credit.x = ($("#viewport").width() / 2);
+        credit.y = $("#viewport").height() - 64;
+        credit.alpha = 0.8;
+
+        tagpro.ui.sprites.SoundPackCredit = new PIXI.Container();
+
+        tagpro.renderer.layers.ui.addChild(tagpro.ui.sprites.SoundPackCredit);
+        tagpro.ui.sprites.SoundPackCredit.addChild(credit);
     }
 
 
-})();
+
+
+
+    // Requesting the soundpack, and call both of the above functions.
+    $.getJSON(SoundPack_URL)
+        .done( function(data){
+            change_sounds(data);
+            if (Show_Credits) show_credits(data);
+        })
+        .fail( function( jqxhr, textStatus, error ) {
+            var err = textStatus + ", " + error;
+            console.warn( "Requesting SoundPack failed. Are you sure that the URL in the script is a direct link to a valid .tpsp file?\n\n" + err );
+        });
+
+
+});
