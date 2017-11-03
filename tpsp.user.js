@@ -2,7 +2,7 @@
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
 // @author        Ko
-// @version       0.1
+// @version       0.2
 // @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com:*
 // @include       http://tangent.jukejuice.com:*
@@ -13,7 +13,22 @@
     //-----------------------------------------------------------------------//
     //                                                                       //
     //       INCLUDED SOUNDPACKS:  (choose one in the options below)         //
-    //               • "minimal" by Ko                                       //
+    //                                                                       //
+    //           • minimal by Ko                         "minimal"           //
+    //                                                                       //
+    //           • Cam's Sounds by Cam                   "cam"               //
+    //               - source: https://redd.it/2iw5di                        //
+    //                                                                       //
+    //           • HarkMomis by RonSpawnsonTP            "harkmomis"         //
+    //               - source: https://redd.it/3fg1yb                        //
+    //                                                                       //
+    //                                                                       //
+    //        Go to: https://github.com/wilcooo/TagPro-SoundPacks            //
+    //        for information on how to make your own SoundPack.             //
+    //        No coding knowledge required, only creativity!                 //
+    //                                                                       //
+    //        Than message me (/u/Wilcooo) and I'll add your                 //
+    //        SoundPack to this script :)                                    //
     //                                                                       //
     //-----------------------------------------------------------------------//
 
@@ -24,8 +39,8 @@
 ////////////////////////////////////////////////////////////////////////////////////////  //
                                                                                       //  //
 // What SoundPack do you want to use?                                                 //  //
-//   You can type the name of an included SoundPack (listed above),                   //  //
-//   or an direct URL to a .tpsp file.                                                //  //
+//   You can type the name of an included SoundPack (listed above, between quotes)    //  //
+//   Or you can type a direct URL to a .tpsp file (between quotes)                    //  //
 var SoundPack = "minimal";                                                            //  //
                                                                                       //  //
 // You can replace individual sounds by pasting direct URLs to .mp3 files.            //  //
@@ -70,19 +85,6 @@ var Show_Credits = true;                                                        
 
 
 
-    /*/////   WANT TO ADD YOUR OWN SOUNDS TO TAGPRO?   ////////
-
-        Go to: https://github.com/wilcooo/TagPro-SoundPacks
-        for information on how to make one.
-        No coding knowledge required, only creativity!
-
-        Than message me (/u/Wilcooo) and I'll add your
-        SoundPack to this script :)
-
-    /////////////////////////////////////////////////////////*/
-
-
-
 
 
 
@@ -124,6 +126,12 @@ tagpro.ready(function () {
     switch (SoundPack) {
         case "minimal":
             SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp";
+            break;
+        case "cam":
+            SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/cam.tpsp";
+            break;
+        case "harkmomis":
+            SoundPack_URL = "https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp";
             break;
         default:
             if (ValidURL(SoundPack)) SoundPack_URL = SoundPack;
