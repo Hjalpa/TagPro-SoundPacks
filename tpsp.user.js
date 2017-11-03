@@ -61,22 +61,24 @@ var Show_Credits = true;                                                        
 
     /*////// ALL SOUNDS OF TAGPRO FOR YOUR INFORMATION ////////
 
-        burst           (when boosting)
-        alert           (when other team grabs)
-        cheering        (at start, when scoring and when won)
-        drop            (when other team drops)
-        sigh            (when other team scores, or when lost)
-        powerup         (when picking a pup)
-        pop             (when you or someone near pops)
-        click           (when a button gets pressed or released)
-        explosion       (bomb or rolling bomb)
-        countdown       (3 - 2 - 1)
-        friendlydrop    (when your team loses the flag)
-        friendlyalert   (when your team grabs)
-        alertlong       (unused)
-        go              (when joining a game which is already in progress)
-        degreeup        (when you get a higher degree)
-        teleport        (when a portal gets used)
+        burst           when boosting
+        alert           when other team grabs
+        cheering        at start, when scoring and when won
+        drop            when other team drops
+        sigh            when other team scores, or when lost
+        powerup         when picking a pup
+        pop             when you or someone near pops
+        click           when a button gets pressed or released
+        explosion       bomb or rolling bomb
+        countdown       3 - 2 - 1  (It's important to get the timing right with this one)
+        friendlydrop    when your team loses the flag
+        friendlyalert   when your team grabs
+        alertlong       unused
+        go              when joining a game which is already in progress
+        degreeup        when you get a higher degree
+        teleport        when a portal gets used
+        wind            when close to a gravity well
+        bing            when receiving a tutorial message
 
     /////////////////////////////////////////////////////////*/
 
@@ -158,9 +160,13 @@ tagpro.ready(function () {
             });
         }
 
+
+        const SOUND_NAMES = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing']
+
         // Overwrite the sounds with the Custom_Sounds (in the options)
         Object.keys(Custom_Sounds).forEach( function(snd) {
-            tpsp.sounds[snd] = { URL : Custom_Sounds[snd] };
+            if (snd in SOUND_NAMES)
+                tpsp.sounds[snd] = { URL : Custom_Sounds[snd] };
         });
 
 
