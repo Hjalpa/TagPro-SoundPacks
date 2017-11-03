@@ -206,13 +206,23 @@ tagpro.ready(function () {
 
         credit.anchor.x = 0.5;
         credit.x = ($("#viewport").width() / 2);
-        credit.y = $("#viewport").height() - 64;
-        credit.alpha = 0.8;
+        credit.y = $("#viewport").height() - 54;
+        credit.alpha = 0.9;
 
         tagpro.ui.sprites.SoundPackCredit = new PIXI.Container();
 
         tagpro.renderer.layers.ui.addChild(tagpro.ui.sprites.SoundPackCredit);
         tagpro.ui.sprites.SoundPackCredit.addChild(credit);
+
+
+        var org_resize = tagpro.renderer.resizeAndCenterView;
+
+        tagpro.renderer.resizeAndCenterView = function() {
+            credit.x = ($("#viewport").width() / 2);
+            credit.y = $("#viewport").height() - 54;
+            org_resize();
+        };
+
     }
 
 
