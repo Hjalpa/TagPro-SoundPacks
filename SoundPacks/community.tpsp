@@ -1,0 +1,16 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Community Sounds",
+    "author"        :   "RonSpawnson",
+    "description"   :   "Crappy sounds made by the community with the use of Mumble. Found at twitch.tv/videos/43273908",
+
+    "sounds" : {
+    
+        "cheering"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/community/cheering.mp3" },
+        "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/community/sigh.mp3" },
+    
+    }
+}
