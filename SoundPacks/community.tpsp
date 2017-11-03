@@ -10,7 +10,7 @@
     "sounds" : {
     
         "cheering"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/community/cheering.mp3" },
-        "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/community/sigh.mp3" },
+        "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/community/sigh.mp3" }
     
     }
 }
