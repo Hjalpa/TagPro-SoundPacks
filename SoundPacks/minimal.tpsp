@@ -18,7 +18,7 @@
         "sigh"          : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/sigh.mp3",
                            "volume" : 1 },
         "powerup"       : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/powerup.mp3",
-                           "volume" : 1 },
+                           "volume" : 0.8 },
         "pop"           : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/pop.mp3",
                            "volume" : 1 },
         "click"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/minimal/click.mp3",
