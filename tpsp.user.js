@@ -214,7 +214,7 @@ tagpro.ready(function () {
 
         if (!tpsp.hasOwnProperty('sounds')) {
             console.error( "TP-SoundPacks: Your soundpack has no 'sounds' tag! Please update your .tpsp file." );
-            if (Show_Warnings) tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: "TP-SoundPacks: Your soundpack has no 'sounds' tag! Please update your .tpsp file.", c: "#d1a140" });
+            if (Show_Warnings) tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: "Your soundpack has no 'sounds' tag! Please update your .tpsp file.", c: "#d1a140" });
             return;
         }
 
@@ -352,7 +352,7 @@ tagpro.ready(function () {
 
             var err_msg = textStatus + ", " + error;
             console.warn( "TP-SoundPacks: Requesting SoundPack failed. Are you sure that the URL in the script is a direct link to a valid .tpsp file?\n\n" + err_msg );
-            if (Show_Warnings) tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: 'The provided URL did not work, or you made a typo. Please look at the options of this script', c: "#d1a140" });
+            if (Show_Warnings) tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: 'The provided URL did not work, you made a typo, or the .tpsp file isn\'t valid JSON. Please look at the options of this script', c: "#d1a140" });
         });
 
 });
