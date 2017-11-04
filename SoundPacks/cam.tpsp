@@ -9,22 +9,22 @@
 
     "sounds" : {
     
-        "drop"          : {"URL" : "https://a.clyp.it/vilyqhzc.mp3" },
-        "countdown"     : {"URL" : "https://a.clyp.it/xjgdxgxy.mp3" },
-        "friendlydrop"  : {"URL" : "https://a.clyp.it/jer5p3ow.mp3" },
-        "burst"         : {"URL" : "https://a.clyp.it/lpmf4afe.mp3" },
-        "friendlyalert" : {"URL" : "https://a.clyp.it/gmmdkusi.mp3" },
-        "teleport"      : {"URL" : "https://a.clyp.it/o3omevmg.mp3" },
-        "powerup"       : {"URL" : "https://a.clyp.it/ot5hidv1.mp3" },
-        "alert"         : {"URL" : "https://a.clyp.it/m2yz5dhg.mp3" },
-        "go"            : {"URL" : "https://a.clyp.it/kjycagbz.mp3" },
-        "sigh"          : {"URL" : "https://a.clyp.it/h5hjh4l4.mp3" },
-        "degreeup"      : {"URL" : "https://a.clyp.it/vyzkn52t.mp3" },
-        "explosion"     : {"URL" : "https://a.clyp.it/q0mx5k34.mp3" },
-        "pop"           : {"URL" : "https://a.clyp.it/iyqajrfl.mp3" },
-        "cheering"      : {"URL" : "https://a.clyp.it/nulqyxat.mp3" },
-        "click"         : {"URL" : "https://a.clyp.it/tjf0pwd2.mp3" },
-        "alertlong"     : {"URL" : "https://a.clyp.it/nsl4cfhm.mp3" }
+        "drop"          : {"URL" : "https://a.clyp.it/vilyqhzc.mp3", "volume" : 1 },
+        "countdown"     : {"URL" : "https://a.clyp.it/xjgdxgxy.mp3", "volume" : 1 },
+        "friendlydrop"  : {"URL" : "https://a.clyp.it/jer5p3ow.mp3", "volume" : 1 },
+        "burst"         : {"URL" : "https://a.clyp.it/lpmf4afe.mp3", "volume" : 1 },
+        "friendlyalert" : {"URL" : "https://a.clyp.it/gmmdkusi.mp3", "volume" : 1 },
+        "teleport"      : {"URL" : "https://a.clyp.it/o3omevmg.mp3", "volume" : 1 },
+        "powerup"       : {"URL" : "https://a.clyp.it/ot5hidv1.mp3", "volume" : 1 },
+        "alert"         : {"URL" : "https://a.clyp.it/m2yz5dhg.mp3", "volume" : 1 },
+        "go"            : {"URL" : "https://a.clyp.it/kjycagbz.mp3", "volume" : 1 },
+        "sigh"          : {"URL" : "https://a.clyp.it/h5hjh4l4.mp3", "volume" : 1 },
+        "degreeup"      : {"URL" : "https://a.clyp.it/vyzkn52t.mp3", "volume" : 1 },
+        "explosion"     : {"URL" : "https://a.clyp.it/q0mx5k34.mp3", "volume" : 1 },
+        "pop"           : {"URL" : "https://a.clyp.it/iyqajrfl.mp3", "volume" : 1 },
+        "cheering"      : {"URL" : "https://a.clyp.it/nulqyxat.mp3", "volume" : 1 },
+        "click"         : {"URL" : "https://a.clyp.it/tjf0pwd2.mp3", "volume" : 1 },
+        "alertlong"     : {"URL" : "https://a.clyp.it/nsl4cfhm.mp3", "volume" : 1 }
     
     }
 }
