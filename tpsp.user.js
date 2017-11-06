@@ -102,10 +102,10 @@ var uploaded_sounds = GM_getValue('uploaded_sounds',{});
 
 if(location.port) {        // When in a game (there is a port number after the URL)
 
-    SoundPack = JSON.parse(GM_getValue('SoundPacks')).builtin;
-    CustomPack = JSON.parse(GM_getValue('SoundPacks')).url;
-    Show_Credits = true; //JSON.parse(GM_getValue('SoundPacks')).Show_Credits;
-    Show_Warnings = true; // JSON.parse(GM_getValue('SoundPacks')).Show_Warnings;
+    var SoundPack = JSON.parse(GM_getValue('SoundPacks', '{"builtin":"' + Object.keys(INCLUDED_SOUNDPACKS)[0] + '"}')).builtin;
+    var CustomPack = JSON.parse(GM_getValue('SoundPacks', '{}')).url;
+    var Show_Credits = true; //JSON.parse(GM_getValue('SoundPacks')).Show_Credits;
+    var Show_Warnings = true; // JSON.parse(GM_getValue('SoundPacks')).Show_Warnings;
 
 
     tagpro.ready(function () {
