@@ -2,7 +2,7 @@
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
 // @author        Ko
-// @version       0.4
+// @version       0.5
 // @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com*
 // @include       http://tangent.jukejuice.com*
@@ -119,7 +119,7 @@ if(location.port) {        // When in a game (there is a port number after the U
 
         tagpro.playSound = function(snd,vol=1) {
 
-            if (tpsp.sounds[snd] && 'volume' in tpsp.sounds[snd])
+            if (tpsp.sounds && tpsp.sounds[snd] && 'volume' in tpsp.sounds[snd])
                 if (0 <= vol && vol <= 1) {
                     vol *= tpsp.sounds[snd].volume;
                 } else {
