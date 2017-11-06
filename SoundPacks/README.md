@@ -26,7 +26,7 @@ A sound's tags:
 * `"source"` [string] A direct URL link to a sound file (`.mp3`,`.wav` or `.ogg`), or a base64 encoded sound.
 * `"volume"` [int] The volume at which the sound should be played (between 0 and 1, if that's not enough, use [mp3louder.com](http://mp3louder.com))
 
-All tags, except `sounds` and (for every sound) `source`
+The only required tags are `sounds` and (for every sound) `source`. I recommend using at least `name` and `author` though.
 
 ### An example .tpsp file
 For working examples, see the .tpsp files in [this](.) folder.
