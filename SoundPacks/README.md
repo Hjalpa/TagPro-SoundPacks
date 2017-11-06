@@ -34,16 +34,16 @@ For working examples, see the .tpsp files in [this](.) folder.
     {
       "name"          :   "name-of-pack",
       "author"        :   "author-of-pack",
-      "author-link"   :   "https://reddit.com/u/Wilcooo",
-      "description"   :   "This is a description",
-      "info-link"     :   "https://redd.it/abcdef",
+      "author-link"   :   "https://reddit.com/u/Wilcooo",
+      "description"   :   "This is a description",
+      "info-link"     :   "https://redd.it/abcdef",
       
       "sounds" : {
         "burst"         : {"source" : "https://example.com/TagProSounds/burst.mp3",
                            "volume" : 0.5 },
         "alert"         : {"source" : "https://example.com/TagProSounds/alert.mp3"},
-        "cheering"      : {"source" : "data:audio/ogg;base64,bG9sIHdoeSBhcmUgeW91IGRvaW5nIHRoaXM="}
-    }
+        "cheering"      : {"source" : "data:audio/ogg;base64,bG9sIHdoeSBhcmUgeW91IGRvaW5nIHRoaXM="}
+    }
 
 Make sure to not type too much commas, use a [JSON validator](https://jsonlint.com/) to check for syntax errors.
 
