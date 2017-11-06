@@ -148,7 +148,7 @@ if(location.port) {        // When in a game (there is a port number after the U
         else if (validURL.test(SoundPack))
             SoundPack_URL = SoundPack;
 
-        else if (SoundPack !== '') {
+        else if (SoundPack) {
             console.warn('TP-SoundPacks: no valid URL or name of an included soundpack');
             if (Show_Warnings) tagpro.socket.emit("local:chat", { to: "all", from: "TP-SoundPacks", message: 'No valid URL or SoundPack provided, please check the options of this script.', c: "#d1a140" });
             return;
@@ -163,7 +163,7 @@ if(location.port) {        // When in a game (there is a port number after the U
 
 
 
-        if (SoundPack !== '') process_builtin(); // change_sounds() gets called by this function
+        if (SoundPack)        process_builtin(); // change_sounds() gets called by this function
 
         else if (CustomPack)  process_custom();  // change_sounds() gets called by this function
 
