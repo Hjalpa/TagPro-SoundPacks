@@ -104,8 +104,8 @@ if(location.port) {        // When in a game (there is a port number after the U
 
     SoundPack = JSON.parse(GM_getValue('SoundPacks')).builtin;
     CustomPack = JSON.parse(GM_getValue('SoundPacks')).url;
-    Show_Credits = JSON.parse(GM_getValue('SoundPacks')).Show_Credits;
-    Show_Warnings = JSON.parse(GM_getValue('SoundPacks')).Show_Warnings;
+    Show_Credits = true; //JSON.parse(GM_getValue('SoundPacks')).Show_Credits;
+    Show_Warnings = true; // JSON.parse(GM_getValue('SoundPacks')).Show_Warnings;
 
 
     tagpro.ready(function () {
