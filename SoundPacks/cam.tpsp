@@ -28,7 +28,7 @@
         "degreeup"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam/degreeup.mp3",
                            "volume" : 1 },
         "cheering"      : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam/cheering.mp3",
-                           "volume" : .5 },
+                           "volume" : 0.5 },
         "alert"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam/alert.mp3",
                            "volume" : 1 },
         "burst"         : {"URL" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam/burst.mp3",
