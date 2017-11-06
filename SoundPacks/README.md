@@ -7,7 +7,7 @@ The following SoundPacks come with the script, and they are saved in this folder
 * **HarkMomis** by [*RonSpawnson*](https://reddit.com/u/RonSpawnsonTP) ([source](https://redd.it/3fg1yb))
 * **Community Sounds** by [*RonSpawnson*](https://reddit.com/u/RonSpawnsonTP) ([source](https://go.twitch.tv/ronspawnson/videos/all))
 
-[*Go back*](../../.. "TagPro SoundPacks")
+[*Go back*](/ "TagPro SoundPacks")
 
 ## All tags of a .tpsp file
 
@@ -34,7 +34,7 @@ For working examples, see the .tpsp files in [this](.) folder.
     {
       "name"          :   "name-of-pack",
       "author"        :   "author-of-pack",
-      "author-link"   :   "https://reddit.com/u/Ko",
+      "author-link"   :   "https://reddit.com/u/Wilcooo",
       "description"   :   "This is a description",
       "info-link"     :   "https://redd.it/abcdef",
       
@@ -46,3 +46,5 @@ For working examples, see the .tpsp files in [this](.) folder.
     }
 
 Make sure to not type too much commas, use a [JSON validator](https://jsonlint.com/) to check for syntax errors.
+
+[*Go back*](/ "TagPro SoundPacks")
