@@ -1,0 +1,18 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "PacPro",
+    "author"        :   "moose",
+    "description"   :   "Pacmans' Go and Die sound effects",
+
+    "sounds" : {
+    
+        "go"            : {"source" : "https://clyp.it/gmk34qew.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://clyp.it/wcg5vuv4.mp3",
+                           "volume" : 1 }
+    
+    }
+}
