@@ -29,7 +29,7 @@ A sound's tags:
 The only required tags are `sounds` and (for every sound) `source`. I recommend using at least `name` and `author` though.
 
 ### An example .tpsp file
-For working examples, see the .tpsp files in [this](.) folder.
+This example does not work, as the source URL's don't exsist. For working examples, see the .tpsp files in [this](.) folder.
 
     {
       "name"          :   "name-of-pack",
