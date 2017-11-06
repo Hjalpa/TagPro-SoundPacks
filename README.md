@@ -46,7 +46,7 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
         bing            when receiving a tutorial message
 
 ## How to make a custom SoundPack (that you can easily share with others)
-1. Make or find .mp3 sounds and upload them somewhere on the internet (for example in a GitHub repo).
-2. Write a .tpsp file, which is a SoundPack written in the JSON format. It should contain direct links to all of your mp3 files. Not all sounds have to be included, as the userscript will fall back to the default sounds. Examples of .tpsp files can be found [here](SoundPacks "SoundPacks").
+1. Make or find `.mp3`/`.wav`/`.ogg` sounds and upload them somewhere on the internet (for example on [this site](https://vocaroo.com/?upload), or in a GitHub repo).
+2. Write a .tpsp file, which is a SoundPack written in the JSON format. Not all sounds have to be included, as the userscript will fall back to the default sounds. Examples of .tpsp files can be found [here](SoundPacks "SoundPacks").
 3. Upload the .tpsp file somewhere too. Now you (or anybally else) can use your SoundPack by typing its direct link in the options of this userscript.
 4. Ask [me](https://reddit.com/user/wilcooo "/u/wilcooo") on reddit to upload your SoundPack to this repository and to embed it in the script! Thanks for contributing :)
