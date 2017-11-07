@@ -2,7 +2,7 @@
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
 // @author        Ko
-// @version       0.5
+// @version       0.5.1
 // @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com*
 // @include       http://tangent.jukejuice.com*
@@ -83,7 +83,8 @@ console.log('START: ' + GM_info.script.name + ' (v' + GM_info.script.version + '
 const INCLUDED_SOUNDPACKS = {minimal:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp',
                              cam:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/cam.tpsp',
                              harkmomis:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp',
-                             community:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/community.tpsp'};
+                             community:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/community.tpsp',
+                             manvoice:'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/manvoice.tpsp'};
 
 const SOUND_NAMES = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing'];
 
