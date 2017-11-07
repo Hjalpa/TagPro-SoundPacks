@@ -34,7 +34,7 @@
         "go"            : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/go.mp3",
                            "volume" : 1 },
         "teleport"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/teleport.mp3",
-                           "volume" : 1 }
+                           "volume" : 1 },
         "drop"          : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/drop.mp3",
                            "volume" : 1 }
     
