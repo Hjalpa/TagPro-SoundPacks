@@ -7,6 +7,7 @@ The following SoundPacks come with the script, but you can add your own individu
 * **Cam's Sounds** by [*Cam*](https://reddit.com/u/StrayCam) ([source](https://redd.it/2iw5di))
 * **HarkMomis** by [*RonSpawnson*](https://reddit.com/u/RonSpawnsonTP) ([source](https://redd.it/3fg1yb))
 * **Community Sounds** by [*RonSpawnson*](https://reddit.com/u/RonSpawnsonTP) ([source](https://go.twitch.tv/ronspawnson/videos/all))
+* **A man's voice** by [*Ko*](https://reddit.com/u/Wilcooo)
 
 ## How to install (for people that are unfamilliar with userscripts)
 1. Install the Tampermonkey extension for your browser if you haven't already

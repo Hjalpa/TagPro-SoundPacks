@@ -1,0 +1,34 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Animal Sounds",
+    "author"        :   "Ko",
+    "description"   :   "Cows, elephants, roosters...",
+
+    "base"          :   "https://www.google.com/logos/fnbx/animal_sounds/",
+
+    "sounds" : {
+    
+        "burst"         : {"source" : "cow.mp3" },
+        "alert"         : {"source" : "owl.mp3" },
+        "cheering"      : {"source" : "elephant.mp3" },
+        "drop"          : {"source" : "lion.mp3" },
+        "sigh"          : {"source" : "moose.mp3" },
+        "powerup"       : {"source" : "turkey.mp3" },
+        "pop"           : {"source" : "horse.mp3" },
+        "click"         : {"source" : "pig.mp3" },
+        "explosion"     : {"source" : "sheep.mp3" },
+        "countdown"     : {"source" : "ape.mp3" },
+        "friendlydrop"  : {"source" : "tiger.mp3" },
+        "friendlyalert" : {"source" : "dog.mp3" },
+        "alertlong"     : {"source" : "duck.mp3" },
+        "go"            : {"source" : "rooster.mp3" },
+        "degreeup"      : {"source" : "zebra.mp3" },
+        "teleport"      : {"source" : "owl.mp3" },
+        "wind"          : {"source" : "humpback-whale.mp3" },
+        "bing"          : {"source" : "raccoon.mp3" }
+    
+    }
+}

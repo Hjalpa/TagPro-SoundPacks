@@ -1,0 +1,42 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "A man's voice",
+    "author"        :   "Ko",
+    "description"   :   "Not my voice, just some grunting, cheering and talking sounds from the internet.",
+
+    "sounds" : {
+    
+        "burst"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/burst.mp3",
+                           "volume" : 1 },
+        "alert"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/alert.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/cheering.mp3",
+                           "volume" : 1 },
+        "sigh"          : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/sigh.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/powerup.mp3",
+                           "volume" : 0.8 },
+        "pop"           : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/pop.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/click.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/explosion.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/countdown.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/friendlyalert.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/friendlydrop.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/go.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/teleport.mp3",
+                           "volume" : 1 },
+        "drop"          : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/manvoice/drop.mp3",
+                           "volume" : 1 }
+    
+    }
+}
