@@ -28,7 +28,7 @@
         "degreeup"      : {"source" : "zebra.mp3" },
         "teleport"      : {"source" : "owl.mp3" },
         "wind"          : {"source" : "humpback-whale.mp3" },
-        "bing"          : {"source" : "raccoon.mp3", "volume" : 1 }
+        "bing"          : {"source" : "raccoon.mp3" }
     
     }
 }
