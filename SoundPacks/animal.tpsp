@@ -1,0 +1,34 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Animal Sounds",
+    "author"        :   "Ko",
+    "description"   :   "Cows, elephants, roosters...",
+
+    "base"          :   "https://www.google.com/logos/fnbx/animal_sounds/",
+
+    "sounds" : {
+    
+        "burst"         : {"source" : "cow.mp3", "volume" : 1 },
+        "alert"         : {"source" : "owl.mp3", "volume" : 1 },
+        "cheering"      : {"source" : "elephant.mp3", "volume" : 1 },
+        "drop"          : {"source" : "lion.mp3", "volume" : 1 },
+        "sigh"          : {"source" : "moose.mp3", "volume" : 1 },
+        "powerup"       : {"source" : "turkey.mp3", "volume" : 1 },
+        "pop"           : {"source" : "horse.mp3", "volume" : 1 },
+        "click"         : {"source" : "pig.mp3", "volume" : 1 },
+        "explosion"     : {"source" : "sheep.mp3", "volume" : 1 },
+        "countdown"     : {"source" : "ape.mp3", "volume" : 1 },
+        "friendlydrop"  : {"source" : "tiger.mp3", "volume" : 1 },
+        "friendlyalert" : {"source" : "dog.mp3", "volume" : 1 },
+        "alertlong"     : {"source" : "duck.mp3", "volume" : 1 },
+        "go"            : {"source" : "rooster.mp3", "volume" : 1 },
+        "degreeup"      : {"source" : "zebra.mp3", "volume" : 1 },
+        "teleport"      : {"source" : "owl.mp3", "volume" : 1 },
+        "wind"          : {"source" : "humpback-whale.mp3", "volume" : 1 },
+        "bing"          : {"source" : "raccoon.mp3", "volume" : 1 }
+    
+    }
+}
