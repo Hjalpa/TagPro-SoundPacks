@@ -2,7 +2,7 @@
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
 // @author        Ko
-// @version       0.5.2
+// @version       0.5.3
 // @downloadURL   https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js
 // @include       http://tagpro-*.koalabeast.com*
 // @include       http://tangent.jukejuice.com*
@@ -31,6 +31,10 @@
     //                                                                       //
     //           • Community Sounds by RonSpawnsonTP                         //
     //               - source: https://go.twitch.tv/ronspawnson/videos/all   //
+    //                                                                       //
+    //           • Animals by Ko                                             //
+    //                                                                       //
+    //           • A man's voice by Ko                                       //
     //                                                                       //
     //                                                                       //
     //        Go to: https://github.com/wilcooo/TagPro-SoundPacks            //
