@@ -47,6 +47,28 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
         wind            when close to a gravity well
         bing            when receiving a tutorial message
 
+From version 0.6.0 the following extra sounds will also be able to be added to a soundpack (or uploaded via the options)
+
+        ['allchat','teamchat','groupchat','system','mod','playerleft','playerjoined','playerswitched','afk','honk'];
+        allchat         receiving/sending a chat message
+        teamchat        for teamchats
+                           if not present, 'allchat' is used instead
+        groupchat       messages from members of your group
+                           if not present, 'allchat' is used instead
+        system          system messages like 'Thanks for switching...' or 'Since there aren't many players...'
+                           if not present, 'allchat' is used instead
+        mod             messages sent by a mod
+                           if not present, 'system' is used instead
+        playerleft      when a player leaves
+                           if not present, 'system' is used instead
+        playerjoined    when a player joins
+                           if not present, 'system' is used instead
+        playerswitched  when a player switches
+                           if not present, 'system' is used instead
+        afk             when you are seconds away from getting kicked
+        honk            replaces the sound used in the 'TagPro Honk' userscript
+                           note: 'TagPro honk' version 0.5 is required!
+
 ## How to make a custom SoundPack (that you can easily share with others)
 1. Make or find `.mp3`/`.wav`/`.ogg` sounds and upload them somewhere on the internet (for example on [this site](https://vocaroo.com/?upload), or in a GitHub repo). *Alternatively: if you know how to, you can encode the sounds to base64*
 2. Write a .tpsp file, which is a SoundPack written in the JSON format. Not all sounds have to be included, as the userscript will fall back to the default sounds. Examples of .tpsp files can be found [here](SoundPacks "SoundPacks").
