@@ -47,7 +47,7 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
         wind            when close to a gravity well
         bing            when receiving a tutorial message
 
-From version 0.6.0 the following extra sounds will also be able to be added to a soundpack (or uploaded via the options)
+From version **0.6.0** the following extra sounds will also be able to be added to a soundpack (or uploaded via the options)
 
         allchat         receiving or sending a chat message
         teamchat        for teamchats
