@@ -49,7 +49,6 @@ These are all the sounds of TagPro. You don't have to use all of them, the scrip
 
 From version 0.6.0 the following extra sounds will also be able to be added to a soundpack (or uploaded via the options)
 
-        ['allchat','teamchat','groupchat','system','mod','playerleft','playerjoined','playerswitched','afk','honk'];
         allchat         receiving/sending a chat message
         teamchat        for teamchats
                            if not present, 'allchat' is used instead
