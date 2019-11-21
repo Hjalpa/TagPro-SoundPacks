@@ -1,3 +1,5 @@
+*Note: This script (like my other scripts) has been moved to [GreasyFork](https://greasyfork.org/scripts/34785-tagpro-soundpacks). This repo is now only used for this documentation and for hosting the sound files.*
+
 # TagPro-SoundPacks
 Use SoundPacks for the increddible game of TagPro
 
@@ -18,8 +20,8 @@ The following SoundPacks come with the script, but you can add your own individu
    + [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ "Install on Firefox") for Firefox
    + [Tampermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/ "Install on Opera Next") for Opera Next
    + [Tampermonkey](https://play.google.com/store/apps/details?id=net.tampermonkey.uc "Install on UC Browser") for UC Browser
-2. Add the [TagPro SoundPacks](https://github.com/wilcooo/TagPro-SoundPacks/raw/master/tpsp.user.js "Add to Tampermonkey") userscript to Tampermonkey
-3. You can change the options on the homepage of your TagPro server (click the 'SoundPacks' button)
+2. Get the [TagPro SoundPacks](https://greasyfork.org/en/scripts/34785-tagpro-soundpacks "Add to Tampermonkey") script from GreasyFork
+3. You can change the options on the homepage of your TagPro server or on the scoreboard in-game (click the speaker icon)
 
 ## How to replace sounds with your own sound files
 1. Make or find `.mp3`/`.wav`/`.ogg` sound(s) and download them to your computer. You don't have to find sounds for every effect, because by default the sounds of the selected built-in SoundPack will be used.
