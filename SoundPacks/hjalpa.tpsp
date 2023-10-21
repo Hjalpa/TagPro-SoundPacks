@@ -1,0 +1,44 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Hjalpa",
+    "author"        :   "Hjalpa",
+    "description"   :   "Hjalpa's Stream Soundpack",
+
+    "sounds" : {
+    
+        "drop"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/drop.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/teleport.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/pop.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/friendlyalert.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/click.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/friendlydrop.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/countdown.mp3",
+                           "volume" : 1 },
+        "alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/alertlong.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/cheering.mp3",
+                           "volume" : 1 },
+        "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/alert.mp3",
+                           "volume" : 1 },
+        "burst"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/burst.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/go.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/explosion.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/powerup.mp3",
+                           "volume" : 1 },
+        "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/sigh.mp3",
+                           "volume" : 1 }
+    
+    }
+}
