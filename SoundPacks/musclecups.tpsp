@@ -1,0 +1,46 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "musclecups",
+    "author"        :   "Muscle Cups",
+    "description"   :   "Muscle Cups 2016 Soundpack",
+
+    "sounds" : {
+    
+        "drop"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/drop.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/teleport.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/pop.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/friendlyalert.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/click.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/friendlydrop.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/countdown.mp3",
+                           "volume" : 1 },
+        "alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/alertlong.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/cheering.mp3",
+                           "volume" : 1 },
+        "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/alert.mp3",
+                           "volume" : 1 },
+        "burst"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/burst.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/go.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/explosion.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/powerup.mp3",
+                           "volume" : 1 },
+        "degreeup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/degreeup.mp3",
+                           "volume" : 1 },
+        "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/musclecups/sigh.mp3",
+                           "volume" : 1 }
+    
+    }
+}
