@@ -1,0 +1,36 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Isaacs Sounds",
+    "author"        :   "Isaac",
+    "description"   :   "Sounds made for TagPro by Issac",
+
+    "sounds" : {
+    
+        "alert"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/alert.mp3",
+                           "volume" : 1 },
+ 	"burst"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/burst.mp3",
+                           "volume" : 1 },
+  	"cheering"   	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/cheering.mp3",
+                           "volume" : 1 },
+  	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/countdown.mp3",
+                           "volume" : 1 },
+  	"drop"       	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/drop.mp3",
+                           "volume" : 1 },
+  	"explosion"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/explosion.mp3",
+                           "volume" : 1 },
+  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlyalert.mp3",
+                           "volume" : 1 },
+  	"friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlydrop.mp3",
+                           "volume" : 1 },
+  	"go"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/go.mp3",
+                           "volume" : 1 },
+  	"pop"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/pop.mp3",
+                           "volume" : 1 },    
+  	"sigh"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/sigh.mp3",
+                           "volume" : 1 },
+
+    }
+}
