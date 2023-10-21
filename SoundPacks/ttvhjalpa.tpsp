@@ -3,7 +3,7 @@
     "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
     
     
-    "name"          :   "Hjalpa",
+    "name"          :   "ttvhjalpa",
     "author"        :   "Hjalpa",
     "description"   :   "Hjalpa's Stream Soundpack",
 
@@ -36,6 +36,8 @@
         "explosion"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/explosion.mp3",
                            "volume" : 1 },
         "powerup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/powerup.mp3",
+                           "volume" : 1 },
+        "wind"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/wind.mp3",
                            "volume" : 1 },
         "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/sigh.mp3",
                            "volume" : 1 }
