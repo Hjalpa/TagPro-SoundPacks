@@ -9,27 +9,27 @@
 
     "sounds" : {
     
-    "alert"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/alert.mp3",
+    "alert"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/alert.wav",
                            "volume" : 1 },
- 	"burst"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/burst.mp3",
+ 	"burst"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/burst.wav",
                            "volume" : 1 },
-  	"cheering"   	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/cheering.mp3",
+  	"cheering"   	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/cheering.wav",
                            "volume" : 1 },
-  	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/countdown.mp3",
+  	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/countdown.wav",
                            "volume" : 1 },
-  	"drop"       	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/drop.mp3",
+  	"drop"       	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/drop.wav",
                            "volume" : 1 },
-  	"explosion"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/explosion.mp3",
+  	"explosion"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/explosion.wav",
                            "volume" : 1 },
-  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlyalert.mp3",
+  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlyalert.wav",
                            "volume" : 1 },
-  	"friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlydrop.mp3",
+  	"friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/friendlydrop.wav",
                            "volume" : 1 },
-  	"go"          	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/go.mp3",
+  	"go"          	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/go.wav",
                            "volume" : 1 },
-  	"pop"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/pop.mp3",
+  	"pop"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/pop.wav",
                            "volume" : 1 },    
-  	"sigh"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/sigh.mp3",
+  	"sigh"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/isaac/sigh.wav",
                            "volume" : 1 }
 
     }
