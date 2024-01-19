@@ -1,0 +1,51 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "TikTok",
+    "author"        :   "TikTok",
+    "description"   :   "TikTok Voice Soundpack",
+
+    "sounds" : {
+    
+    "alert"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/alert.mp3",
+                           "volume" : 1 },
+ 	  "burst"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/burst.mp3",
+                           "volume" : 1 },
+  	"cheering"   	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/cheering.mp3",
+                           "volume" : 1 },
+  	"countdown"  	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/countdown.mp3",
+                           "volume" : 1 },
+  	"drop"       	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/drop.mp3",
+                           "volume" : 1 },
+  	"explosion"  	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/explosion.mp3",
+                           "volume" : 1 },
+  	"friendlyalert" : {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/friendlyalert.mp3",
+                           "volume" : 1 },
+  	"friendlydrop"  : {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/friendlydrop.mp3",
+                           "volume" : 1 },
+  	"go"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/go.mp3",
+                           "volume" : 1 },
+  	"pop"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/pop.mp3",
+                           "volume" : 1 },    
+  	"sigh"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/sigh.mp3",
+                           "volume" : 1 },
+  	"powerup"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/powerup.mp3",
+                           "volume" : 1 },
+  	"click"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/click.mp3",
+                           "volume" : 1 },
+  	"alertlong"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/alertlong.mp3",
+                           "volume" : 1 },
+  	"degreeup"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/degreeup.mp3",
+                           "volume" : 1 },
+  	"teleport"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/teleport.mp3",
+                           "volume" : 1 },
+  	"wind"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/wind.mp3",
+                           "volume" : 1 },
+  	"bing"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/bing.mp3",
+                           "volume" : 1 },
+  	"overtime"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/raw/main/tiktok/overtime.mp3",
+                           "volume" : 1 },
+    }
+}
