@@ -27,6 +27,6 @@
   	"teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/teleport.mp3", "volume" : 1 },
   	"wind"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/wind.mp3", "volume" : 1 },
   	"bing"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/bing.mp3", "volume" : 1 },
-  	"overtime"     	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/overtime.mp3", "volume" : 1 },
+  	"overtime"     	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/overtime.mp3", "volume" : 1 }
     }
 }
