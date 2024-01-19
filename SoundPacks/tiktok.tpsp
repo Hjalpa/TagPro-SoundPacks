@@ -23,10 +23,10 @@
   	"powerup"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/powerup.mp3", "volume" : 1 },
   	"click"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/click.mp3", "volume" : 1 },
   	"alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/alertlong.mp3", "volume" : 1 },
-  	"degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/degreeup.mp3", "volume" : 1 },
   	"teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/teleport.mp3", "volume" : 1 },
   	"wind"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/wind.mp3", "volume" : 1 },
   	"bing"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/bing.mp3", "volume" : 1 },
-  	"overtime"     	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/overtime.mp3", "volume" : 1 }
+  	"overtime"     	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/overtime.mp3", "volume" : 1 },
+	"degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/tiktok/degreeup.mp3", "volume" : 1 }
     }
 }
