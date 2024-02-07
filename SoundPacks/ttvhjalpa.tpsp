@@ -29,7 +29,7 @@
                            "volume" : 1 },
         "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/alert.mp3",
                            "volume" : 1 },
-        "burst"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/burst.mp3",
+        "bing"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/bing.mp3",
                            "volume" : 1 },
         "go"            : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/go.mp3",
                            "volume" : 1 },
