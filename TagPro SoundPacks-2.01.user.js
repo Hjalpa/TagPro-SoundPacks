@@ -1,15 +1,16 @@
 // ==UserScript==
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
-// @author        Ko, Hjalpa
+// @author        Ko
 // @version       2.01
 // @icon          https://raw.githubusercontent.com/wilcooo/TagPro-ScriptResources/master/speaker.png
 // @match         *://*.koalabeast.com/*
-// @include       https://*.koalabeast.com/game
+// @include       https://*.koalabeast.com/game*
 // @include       https://*.koalabeast.com/game?*
-// @include       https://*.koalabeast.com:*
 // @include       https://tagpro-*.koalabeast.com/groups/*
 // @include       https://bash-tp.github.io/tagpro-vcr/*
+// @updateURL     https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks-2.01.user.js
+// @downloadURL   https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks-2.01.user.js
 // @require       https://greasyfork.org/scripts/371240/code/TagPro%20Userscript%20Library.js
 // @grant         GM_getValue
 // @grant         GM_setValue
