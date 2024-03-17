@@ -1,0 +1,52 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "defaultremastered",
+    "author"        :   "Hjalpa",
+    "description"   :   "Default Sounds with Normalized Audio Levels (ATSC)",
+
+    "sounds" : {
+    
+        "drop"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/drop.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/teleport.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/pop.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/friendlyalert.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/click.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/friendlydrop.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/countdown.mp3",
+                           "volume" : 1 },
+        "alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/alertlong.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/cheering.mp3",
+                           "volume" : 1 },
+        "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/alert.mp3",
+                           "volume" : 1 },
+        "bing"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/bing.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/go.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/explosion.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/powerup.mp3",
+                           "volume" : 1 },
+        "wind"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/wind.mp3",
+                           "volume" : 1 },
+        "burst"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/burst.mp3",
+                           "volume" : 1 },
+        "degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/degreeup.mp3",
+                           "volume" : 1 },
+        "overtime"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/overtime.mp3",
+                           "volume" : 1 },  
+        "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/defaultremastered/sigh.mp3",
+                           "volume" : 1 }
+    
+    }
+}
