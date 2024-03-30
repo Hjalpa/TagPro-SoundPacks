@@ -100,7 +100,7 @@ const INCLUDED_SOUNDPACKS = {minimal   : 'https://raw.githubusercontent.com/wilc
                              tiktok    : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/tiktok.tpsp',
                              musclecups: 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/musclecups.tpsp'};
 
-const STANDARD_SOUNDS = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing'];
+const STANDARD_SOUNDS = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing', 'overtime'];
 const EXTRA_SOUNDS = ['allchat','teamchat','groupchat','system','mod','playerleft','playerjoined','playerswitched','afk','honk'];
 const ALL_SOUNDS = STANDARD_SOUNDS.concat(EXTRA_SOUNDS);
 
