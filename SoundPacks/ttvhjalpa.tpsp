@@ -23,8 +23,6 @@
                            "volume" : 1 },
         "countdown"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/countdown.mp3",
                            "volume" : 1 },
-        "alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/alertlong.mp3",
-                           "volume" : 1 },
         "cheering"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/cheering.mp3",
                            "volume" : 1 },
         "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/alert.mp3",
