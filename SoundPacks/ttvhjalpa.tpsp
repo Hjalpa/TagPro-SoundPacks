@@ -38,6 +38,8 @@
         "wind"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/wind.mp3",
                            "volume" : 1 },
         "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/ttvhjalpa/sigh.mp3",
+                           "volume" : 1 },
+        "mark"          : {"source" : "https://raw.githubusercontent.com/hjalpa/sounds/main/c-h-e-e-s-e.mp3",
                            "volume" : 1 }
     
     }
