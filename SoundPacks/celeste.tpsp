@@ -1,0 +1,48 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "celeste",
+    "author"        :   "MagikPigeon",
+    "description"   :   "For use with the Celeste TagPro Experience: https://github.com/MagicPigeon/CelesteTP",
+
+    "sounds" : {
+    
+        "drop"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/drop.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/teleport.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/pop.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/friendlyalert.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/click.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/friendlydrop.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/countdown.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/cheering.mp3",
+                           "volume" : 1 },
+        "alert"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/alert.mp3",
+                           "volume" : 1 },
+        "bing"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/bing.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/go.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/explosion.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/powerup.mp3",
+                           "volume" : 1 },
+        "wind"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/wind.mp3",
+                           "volume" : 1 },
+        "burst"         : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/burst.mp3",
+                           "volume" : 1 },
+        "degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/degreeup.mp3",
+                           "volume" : 1 },
+        "sigh"          : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/celeste/sigh.mp3",
+                           "volume" : 1 }
+    
+    }
+}
