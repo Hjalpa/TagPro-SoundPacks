@@ -91,7 +91,7 @@ console.log('START: ' + GM_info.script.name + ' (v' + GM_info.script.version + '
 const INCLUDED_SOUNDPACKS = {minimal   : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp',
                              animals   : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/animals.tpsp',
                              cam       : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/cam.tpsp',
-                             celeste   : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/celeste.tpsp',
+                             celeste   : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/celeste.tpsp',
                              community : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/community.tpsp',
                              defaultremastered : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/defaultremastered.tpsp',
                              harkmomis : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp',
