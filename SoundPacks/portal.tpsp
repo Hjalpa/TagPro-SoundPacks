@@ -1,0 +1,22 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Portal",
+    "author"        :   "Cam",
+    "description"   :   "Portal Soundpack, curated by Cam",
+
+    "sounds" : {
+    
+    "cheering"   	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/cheering.mp3", "volume" : 1 },
+  	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/countdown.mp3", "volume" : 1 },
+  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/friendlyalert.mp3", "volume" : 1 },
+  	"go"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/go.mp3", "volume" : 1 },
+  	"pop"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/pop.mp3", "volume" : 1 },    
+  	"powerup"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/powerup.mp3", "volume" : 1 },
+  	"click"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/click.mp3", "volume" : 1 },
+  	"teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/teleport.mp3", "volume" : 1 },
+	  "degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/portal/degreeup.mp3", "volume" : 1 }
+    }
+}
