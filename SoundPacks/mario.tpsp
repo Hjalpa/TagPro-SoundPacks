@@ -1,0 +1,29 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Mario",
+    "author"        :   "Cam",
+    "description"   :   "Mario Soundpack, curated by Cam",
+
+    "sounds" : {
+    
+    "alert"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/alert.mp3", "volume" : 1 },
+ 	  "burst"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/burst.mp3", "volume" : 1 },
+  	"cheering"   	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/cheering.mp3", "volume" : 1 },
+  	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/countdown.mp3", "volume" : 1 },
+  	"drop"       	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/drop.mp3", "volume" : 1 },
+  	"explosion"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/explosion.mp3", "volume" : 1 },
+  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/friendlyalert.mp3", "volume" : 1 },
+  	"friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/friendlydrop.mp3", "volume" : 1 },
+  	"go"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/go.mp3", "volume" : 1 },
+  	"pop"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/pop.mp3", "volume" : 1 },    
+  	"sigh"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/sigh.mp3", "volume" : 1 },
+  	"powerup"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/powerup.mp3", "volume" : 1 },
+  	"click"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/click.mp3", "volume" : 1 },
+  	"alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/alertlong.mp3", "volume" : 1 },
+  	"teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/teleport.mp3", "volume" : 1 },
+	  "degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/mario/degreeup.mp3", "volume" : 1 }
+    }
+}
