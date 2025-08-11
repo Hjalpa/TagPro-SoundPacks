@@ -1,0 +1,25 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "PacMan",
+    "author"        :   "Cam",
+    "description"   :   "Pacman Soundpack, curated by Cam",
+
+    "sounds" : {
+    
+   	"countdown"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/countdown.mp3", "volume" : 1 },
+  	"drop"       	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/drop.mp3", "volume" : 1 },
+  	"explosion"  	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/explosion.mp3", "volume" : 1 },
+  	"friendlyalert" : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/friendlyalert.mp3", "volume" : 1 },
+  	"friendlydrop"  : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/friendlydrop.mp3", "volume" : 1 },
+  	"go"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/go.mp3", "volume" : 1 },
+  	"pop"      	    : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/pop.mp3", "volume" : 1 },    
+  	"powerup"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/powerup.mp3", "volume" : 1 },
+  	"click"      	: {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/click.mp3", "volume" : 1 },
+  	"alertlong"     : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/alertlong.mp3", "volume" : 1 },
+  	"teleport"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/teleport.mp3", "volume" : 1 },
+	  "degreeup"      : {"source" : "https://github.com/hjalpa/TagPro-SoundPacks/raw/master/SoundPacks/pacman/degreeup.mp3", "volume" : 1 }
+    }
+}
