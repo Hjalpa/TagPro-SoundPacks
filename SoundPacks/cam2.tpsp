@@ -1,0 +1,46 @@
+{
+
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+    
+    
+    "name"          :   "Cam's Sounds v2",
+    "author"        :   "Cam",
+    "description"   :   "Sounds from Cam",
+
+    "sounds" : {
+    
+        "drop"          : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/drop.mp3",
+                           "volume" : 1 },
+        "teleport"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/teleport.mp3",
+                           "volume" : 1 },
+        "pop"           : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/pop.mp3",
+                           "volume" : 1 },
+        "friendlyalert" : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/friendlyalert.mp3",
+                           "volume" : 1 },
+        "click"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/click.mp3",
+                           "volume" : 1 },
+        "friendlydrop"  : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/friendlydrop.mp3",
+                           "volume" : 1 },
+        "countdown"     : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/countdown.mp3",
+                           "volume" : 1 },
+        "alertlong"     : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/alertlong.mp3",
+                           "volume" : 1 },
+        "degreeup"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/degreeup.mp3",
+                           "volume" : 1 },
+        "cheering"      : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/cheering.mp3",
+                           "volume" : 0.5 },
+        "alert"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/alert.mp3",
+                           "volume" : 1 },
+        "burst"         : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/burst.mp3",
+                           "volume" : 1 },
+        "go"            : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/go.mp3",
+                           "volume" : 1 },
+        "explosion"     : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/explosion.mp3",
+                           "volume" : 1 },
+        "powerup"       : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/powerup.mp3",
+                           "volume" : 1 },
+        "sigh"          : {"source" : "https://github.com/wilcooo/TagPro-SoundPacks/raw/master/SoundPacks/cam2/sigh.mp3",
+                           "volume" : 1 }
+    
+    }
+}
