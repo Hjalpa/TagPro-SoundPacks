@@ -1,21 +1,20 @@
 // ==UserScript==
 // @name          TagPro SoundPacks
 // @description   Change the default sounds with packs or individual files
-// @author        Ko
-// @version       2.02
+// @author        Ko, Hjalpa
+// @version       2.03
 // @icon          https://raw.githubusercontent.com/wilcooo/TagPro-ScriptResources/master/speaker.png
 // @match         *://*.koalabeast.com/*
 // @include       https://*.koalabeast.com/game*
 // @include       https://*.koalabeast.com/game?*
-// @include       https://tagpro-*.koalabeast.com/groups/*
-// @include       https://bash-tp.github.io/tagpro-vcr/*
-// @updateURL     https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks-2.01.user.js
-// @downloadURL   https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks-2.01.user.js
+// @include       https://*.koalabeast.com/*
+// @updateURL     https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks.user.js
+// @downloadURL   https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks.user.js
 // @require       https://greasyfork.org/scripts/371240/code/TagPro%20Userscript%20Library.js
 // @grant         GM_getValue
 // @grant         GM_setValue
 // @grant         GM_deleteValue
-// @namespace https://greasyfork.org/users/152992
+// @namespace     https://greasyfork.org/users/152992
 // ==/UserScript==
 
 
@@ -50,7 +49,7 @@
     //                                                                       //
     //-----------------------------------------------------------------------//
 
-/* globals tagpro, PIXI, jQuery, $, tinycolor, tpul, tpsp */
+/* globals tagpro, PIXI, jQuery, $, tpul, tpsp */
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -79,7 +78,7 @@
 
 
 
-var short_name = 'soundpacks';          // An alphabetic (no spaces/numbers) distinctive name for the script.
+var short_name = 'soundpacks'; // An alphabetic (no spaces/numbers) distinctive name for the script.
 tagpro.ready(function(){ if (!tagpro.scripts) tagpro.scripts = {}; tagpro.scripts[short_name]={version:GM_info.script.version,author:GM_info.script.author};});
 console.log('START: ' + GM_info.script.name + ' (v' + GM_info.script.version + ' by ' + GM_info.script.author + ')');
 
@@ -88,20 +87,24 @@ console.log('START: ' + GM_info.script.name + ' (v' + GM_info.script.version + '
 
 // Ask me (/u/Wilcooo) to add your SoundPack to this list
 
-const INCLUDED_SOUNDPACKS = {minimal   : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp',
-                             animals   : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/animals.tpsp',
-                             cam       : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/cam.tpsp',
+const INCLUDED_SOUNDPACKS = {minimal   : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/minimal.tpsp',
+                             animals   : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/animals.tpsp',
+                             cam       : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/cam.tpsp',
+                             cam2      : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/cam2.tpsp',
                              celeste   : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/celeste.tpsp',
-                             community : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/community.tpsp',
+                             community : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/community.tpsp',
                              defaultremastered : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/defaultremastered.tpsp',
-                             harkmomis : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp',
-                             manvoice  : 'https://raw.githubusercontent.com/wilcooo/TagPro-SoundPacks/master/SoundPacks/manvoice.tpsp',
+                             harkmomis : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/harkmomis.tpsp',
+                             manvoice  : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/manvoice.tpsp',
+                             mario     : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/mario.tpsp',
+                             pacman    : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/pacman.tpsp',
+                             portal  : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/portal.tpsp',
                              isaac     : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/isaac.tpsp',
                              ttvhjalpa : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/ttvhjalpa.tpsp',
                              tiktok    : 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/tiktok.tpsp',
                              musclecups: 'https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/musclecups.tpsp'};
 
-const STANDARD_SOUNDS = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing', 'overtime'];
+const STANDARD_SOUNDS = ['burst', 'alert', 'cheering', 'drop', 'sigh', 'powerup', 'pop', 'click', 'explosion', 'countdown', 'friendlydrop', 'friendlyalert', 'alertlong', 'go', 'degreeup', 'teleport', 'wind', 'bing', 'overtime', 'mark'];
 const EXTRA_SOUNDS = ['allchat','teamchat','groupchat','system','mod','playerleft','playerjoined','playerswitched','afk','honk'];
 const ALL_SOUNDS = STANDARD_SOUNDS.concat(EXTRA_SOUNDS);
 
