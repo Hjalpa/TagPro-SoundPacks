@@ -8,8 +8,8 @@
 // @include       https://*.koalabeast.com/game*
 // @include       https://*.koalabeast.com/game?*
 // @include       https://*.koalabeast.com/*
-// @updateURL     https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks.user.js
-// @downloadURL   https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagPro%20SoundPacks.user.js
+// @updateURL     https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagProSoundPacks.user.js
+// @downloadURL   https://github.com/Hjalpa/TagPro-SoundPacks/blob/master/TagProSoundPacks.user.js
 // @require       https://greasyfork.org/scripts/371240/code/TagPro%20Userscript%20Library.js
 // @grant         GM_getValue
 // @grant         GM_setValue
