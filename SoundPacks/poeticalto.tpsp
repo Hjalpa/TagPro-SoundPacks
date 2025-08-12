@@ -1,0 +1,31 @@
+{"source" : 
+
+    "info" : {"source" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript", "volume" : 1 },
+    
+    
+    "name"          : {"source" :   "TikTok", "volume" : 1 },
+    "author"        : {"source" :   "TikTok Voice Generator", "volume" : 1 },
+    "description"   : {"source" :   "TikTok Voice Soundpack", "volume" : 1 },
+
+    "sounds" : {"source" : {"source" : 
+     
+    "alert": {"source" :           "http://themushroomkingdom.net/sounds/wav/smw/smw_map_castle_crumbles.wav", "volume" : 1 },  //when other team grabs
+    "alertlong": {"source" :       "http://themushroomkingdom.net/sounds/wav/smw/smw_switch_timer_ending.wav", "volume" : 1 },  //marsball close to capping
+    "bing": {"source" :            "http://themushroomkingdom.net/sounds/wav/smw/smw_message_block.wav", "volume" : 1 },        //when receiving a tutorial message
+    "burst": {"source" :           "http://themushroomkingdom.net/sounds/wav/smw/smw_coin.wav", "volume" : 1 },                 //when boosting
+    "cheering": {"source" :        "http://themushroomkingdom.net/sounds/wav/smw/smw_bonus_game_end.wav", "volume" : 1 },       //at start, when scoring and when won
+    "click": {"source" :           "http://themushroomkingdom.net/sounds/wav/smw/smw_fireball.wav", "volume" : 1 },             //when a button gets pressed or released
+    "countdown": {"source" :       "http://themushroomkingdom.net/sounds/wav/sm3dl/sm3dl_mario_here_we_go.wav", "volume" : 1 }, //3 - 2 - 1
+    "degreeup": {"source" :        "http://themushroomkingdom.net/sounds/wav/smw/smw_1-up.wav", "volume" : 1 },                 //when you get a higher degree
+    "drop": {"source" :            "http://themushroomkingdom.net/sounds/wav/smw/smw_stomp.wav", "volume" : 1 },                //when other team drops
+    "explosion": {"source" :       "http://themushroomkingdom.net/sounds/wav/smw/smw_thud.wav", "volume" : 1 },                 //bomb or rolling bomb
+    "friendlyalert": {"source" :   "http://themushroomkingdom.net/sounds/wav/smw/smw_lemmy_wendy_correct.wav", "volume" : 1 },  //when your team grabs
+    "friendlydrop": {"source" :    "http://themushroomkingdom.net/sounds/wav/smw/smw_kick.wav", "volume" : 1 },                 //when your team loses the flag
+    "go": {"source" :              "http://themushroomkingdom.net/sounds/wav/sm3dl/sm3dl_mario_lets-a_go.wav", "volume" : 1 },  //when joining a game which is already in progress
+    "powerup": {"source" :         "http://themushroomkingdom.net/sounds/wav/smw/smw_power-up.wav", "volume" : 1 },             //when picking a pup
+    "pop": {"source" :             "http://themushroomkingdom.net/sounds/wav/smw/smw_bubble_pop.wav", "volume" : 1 },           //when you or someone near pops
+    "sigh": {"source" :            "http://themushroomkingdom.net/sounds/wav/smw/smw_lost_a_life.wav", "volume" : 1 },          //when other team scores, or when lost
+    "teleport": {"source" :        "http://themushroomkingdom.net/sounds/wav/smw/smw_pipe.wav", "volume" : 1 },                 //when a portal gets used
+    "wind": {"source" :            "http://themushroomkingdom.net/sounds/wav/smw/smw_magikoopa_beam.wav", "volume" : 1 },       //when close to a gravity well
+    }
+}
