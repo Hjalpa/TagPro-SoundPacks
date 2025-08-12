@@ -1,13 +1,13 @@
-{"source" : 
+{
 
-    "info" : {"source" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript", "volume" : 1 },
+    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
     
     
-    "name"          : {"source" :   "TikTok", "volume" : 1 },
-    "author"        : {"source" :   "TikTok Voice Generator", "volume" : 1 },
-    "description"   : {"source" :   "TikTok Voice Soundpack", "volume" : 1 },
+    "name"          :   "Poeticalto",
+    "author"        :   "Poeticalto",
+    "description"   :   "Poeticalto's Custom No-Script Soundpack using Super Mario World sounds.",
 
-    "sounds" : {"source" : {"source" : 
+    "sounds" : {
      
     "alert": {"source" :           "http://themushroomkingdom.net/sounds/wav/smw/smw_map_castle_crumbles.wav", "volume" : 1 },  //when other team grabs
     "alertlong": {"source" :       "http://themushroomkingdom.net/sounds/wav/smw/smw_switch_timer_ending.wav", "volume" : 1 },  //marsball close to capping
