@@ -1,48 +1,80 @@
 {
-
-    "info" : "This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
-    
-    
-    "name"          :   "brainrot",
-    "author"        :   "Hjalpa",
-    "description"   :   "skibidi Ohio rizz",
-
-    "sounds" : {
-    
-    "alert"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/alert.mp3",
-                           "volume" : 1 },
- 	"burst"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/burst.mp3",
-                           "volume" : 1 },
-  	"cheering"   	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/cheering.mp3",
-                           "volume" : 1 },
-  	"countdown"  	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/countdown.mp3",
-                           "volume" : 1 },
-  	"drop"       	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/drop.mp3",
-                           "volume" : 1 },
-  	"explosion"  	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/explosion.mp3",
-                           "volume" : 1 },
-  	"friendlyalert" : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/friendlyalert.mp3",
-                           "volume" : 1 },
-  	"friendlydrop"  : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/friendlydrop.mp3",
-                           "volume" : 1 },
-  	"go"      	    : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/go.mp3",
-                           "volume" : 1 },
-  	"pop"      	    : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/pop.mp3",
-                           "volume" : 1 },    
-  	"sigh"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/sigh.mp3",
-                           "volume" : 1 },
-  	"powerup"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/powerup.mp3",
-                           "volume" : 1 },
-  	"click"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/click.mp3",
-                           "volume" : 1 },
-  	"degreeup"      : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/degreeup.mp3",
-                           "volume" : 1 },
-  	"teleport"      : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/teleport.mp3",
-                           "volume" : 1 },
-  	"wind"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/wind.mp3",
-                           "volume" : 1 },
-  	"bing"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/bing.mp3",
-                           "volume" : 1 },
-  	"overtime"      : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/overtime.mp3",
-                           "volume" : 1 },
-    }
+   "info":"This is a soundpack for the game TagPro, to use with the TagPro SoundPacks userscript",
+   "name":"brainrot",
+   "author":"Hjalpa",
+   "description":"skibidi Ohio rizz",
+   "sounds":{
+      "alert":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/alert.mp3",
+         "volume":1
+      },
+      "burst":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/burst.mp3",
+         "volume":1
+      },
+      "cheering":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/cheering.mp3",
+         "volume":1
+      },
+      "countdown":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/countdown.mp3",
+         "volume":1
+      },
+      "drop":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/drop.mp3",
+         "volume":1
+      },
+      "explosion":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/explosion.mp3",
+         "volume":1
+      },
+      "friendlyalert":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/friendlyalert.mp3",
+         "volume":1
+      },
+      "friendlydrop":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/friendlydrop.mp3",
+         "volume":1
+      },
+      "go":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/go.mp3",
+         "volume":1
+      },
+      "pop":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/pop.mp3",
+         "volume":1
+      },
+      "sigh":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/sigh.mp3",
+         "volume":1
+      },
+      "powerup":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/powerup.mp3",
+         "volume":1
+      },
+      "click":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/click.mp3",
+         "volume":1
+      },
+      "degreeup":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/degreeup.mp3",
+         "volume":1
+      },
+      "teleport":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/teleport.mp3",
+         "volume":1
+      },
+      "wind":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/wind.mp3",
+         "volume":1
+      },
+      "bing":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/bing.mp3",
+         "volume":1
+      },
+      "overtime":{
+         "source":"https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/overtime.mp3",
+         "volume":1
+      }
+   }
+}
