@@ -11,7 +11,7 @@
     
     "alert"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/alert.mp3",
                            "volume" : 1 },
- 	  "burst"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/burst.mp3",
+ 	"burst"      	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/burst.mp3",
                            "volume" : 1 },
   	"cheering"   	: {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/cheering.mp3",
                            "volume" : 1 },
@@ -46,4 +46,3 @@
   	"overtime"      : {"source" : "https://raw.githubusercontent.com/hjalpa/TagPro-SoundPacks/master/SoundPacks/brainrot/overtime.mp3",
                            "volume" : 1 },
     }
-}
